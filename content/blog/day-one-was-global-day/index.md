@@ -2,7 +2,7 @@
 title: "Day One Was Global Day"
 description: "Why we added four languages in week one — and used AI to do it."
 date: 2026-02-11
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "internationalization", "startup"]
 categories: ["blog"]

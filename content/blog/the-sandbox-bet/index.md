@@ -2,7 +2,7 @@
 title: "The Sandbox Bet"
 description: "How we bet the product on E2B sandboxed execution — and why it was the most important decision we made."
 date: 2026-02-06
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "security", "ai-agents", "sandbox"]
 categories: ["blog"]

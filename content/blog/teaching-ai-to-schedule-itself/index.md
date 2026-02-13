@@ -2,7 +2,7 @@
 title: "Teaching Our AI to Schedule Itself"
 description: "How we built autonomous task scheduling so your AI agent works while you sleep."
 date: 2026-02-09
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "automation", "ai-agents"]
 categories: ["blog"]

@@ -2,7 +2,7 @@
 title: "632 Commits in 84 Days: What We Learned Shipping Every Day"
 description: "The cadence, the chaos, and the compound effects of relentless daily shipping."
 date: 2026-02-05
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "startup", "productivity"]
 categories: ["blog"]

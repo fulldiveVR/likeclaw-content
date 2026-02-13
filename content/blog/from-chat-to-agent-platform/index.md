@@ -2,7 +2,7 @@
 title: "From Chat Interface to Agent Platform"
 description: "The architectural evolution from a simple AI chat app to an autonomous agent platform — told through the decisions that shaped it."
 date: 2026-02-04
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "architecture", "ai-agents"]
 categories: ["blog"]

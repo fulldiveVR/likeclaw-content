@@ -2,7 +2,7 @@
 title: "Our AI Resolves Its Own GitHub Issues at 3 AM"
 description: "How we set up Claude to automatically fix bugs, create PRs, and review its own code — without a human touching the keyboard."
 date: 2026-02-07
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "automation", "ai-agents", "productivity"]
 categories: ["blog"]

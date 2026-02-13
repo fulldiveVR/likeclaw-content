@@ -2,7 +2,7 @@
 title: "Building Onboarding That Feels Like a Conversation"
 description: "How we designed a welcome experience that guides users without patronizing them — in four languages, across multiple workspaces."
 date: 2026-02-01
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "onboarding", "startup"]
 categories: ["blog"]

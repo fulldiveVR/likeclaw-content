@@ -2,7 +2,7 @@
 title: "We Let Our AI Write Code, Review PRs, and Deploy Itself"
 description: "The story of building a fully autonomous development pipeline where AI writes, reviews, tests, and ships its own improvements."
 date: 2026-02-03
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "automation", "ai-agents", "productivity"]
 categories: ["blog"]

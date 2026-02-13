@@ -2,7 +2,7 @@
 title: "We Built Billing Before We Built Features"
 description: "Why we wired up subscriptions, payment guards, and usage tracking on day three — before most of our features existed."
 date: 2026-02-12
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "startup", "pricing", "monetization"]
 categories: ["blog"]

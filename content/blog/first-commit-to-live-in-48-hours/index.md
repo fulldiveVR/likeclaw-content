@@ -2,7 +2,7 @@
 title: "From First Commit to Live Product in 48 Hours"
 description: "How we went from an empty repo to a deployed AI agent platform with chat, file management, and workspaces in two days."
 date: 2026-02-13
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "startup", "speed"]
 categories: ["blog"]

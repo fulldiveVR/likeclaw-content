@@ -2,7 +2,7 @@
 title: "When We Gave Our Agent an Art Studio"
 description: "How adding AI image generation turned a productivity tool into a creative platform."
 date: 2026-02-08
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "ai-agents", "multi-model"]
 categories: ["blog"]

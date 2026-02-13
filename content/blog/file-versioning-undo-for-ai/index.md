@@ -2,7 +2,7 @@
 title: "Undo for AI: Why We Built File Versioning"
 description: "AI agents create and modify files constantly. File versioning lets you roll back any change — because even smart agents make mistakes."
 date: 2026-01-31
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "ai-agents", "security"]
 categories: ["blog"]

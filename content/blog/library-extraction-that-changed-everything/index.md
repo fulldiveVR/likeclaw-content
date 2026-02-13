@@ -2,7 +2,7 @@
 title: "The Library Extraction That Changed Everything"
 description: "How pulling our chat UI and file system into reusable packages turned a single product into a platform."
 date: 2026-02-10
-draft: true
+draft: false
 images: ["cover.jpg"]
 tags: ["building-in-public", "architecture", "startup"]
 categories: ["blog"]
