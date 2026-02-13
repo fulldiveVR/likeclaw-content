@@ -9,7 +9,7 @@ categories: ["use-cases"]
 persona: "Operations Manager @ Growing Startup"
 industry: "saas"
 difficulty: "beginner"
-related_use_cases: ["code-execution", "task-automation", "email-automation"]
+related_use_cases: ["code-execution", "analytics-export", "investment-research"]
 related_blog_posts: ["what-is-e2b-sandboxed-execution", "stop-paying-four-ai-subscriptions"]
 before:
   summary: "Data analysis requires specialists and expensive tools"

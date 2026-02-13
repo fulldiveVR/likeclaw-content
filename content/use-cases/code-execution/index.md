@@ -9,7 +9,7 @@ categories: ["use-cases"]
 persona: "Full-Stack Developer @ Tech Startup"
 industry: "developer-tools"
 difficulty: "beginner"
-related_use_cases: ["data-analysis", "email-automation", "task-automation"]
+related_use_cases: ["data-analysis", "github-automation", "codebase-analysis"]
 related_blog_posts: ["sandboxed-ai-agents-future", "what-is-e2b-sandboxed-execution"]
 before:
   summary: "Running AI-generated code directly on your local machine"

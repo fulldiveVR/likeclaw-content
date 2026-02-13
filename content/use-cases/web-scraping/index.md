@@ -9,7 +9,7 @@ categories: ["use-cases"]
 persona: "Growth Marketer @ SaaS Company"
 industry: "saas"
 difficulty: "intermediate"
-related_use_cases: ["task-automation", "code-execution", "data-analysis"]
+related_use_cases: ["reddit-monitoring", "product-monitoring", "data-analysis"]
 related_blog_posts: ["what-is-e2b-sandboxed-execution", "sandboxed-ai-agents-future"]
 before:
   summary: "Manual web research eats your day"

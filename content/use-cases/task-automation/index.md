@@ -9,7 +9,7 @@ categories: ["use-cases"]
 persona: "Startup Founder Wearing Too Many Hats"
 industry: "startups"
 difficulty: "beginner"
-related_use_cases: ["email-automation", "web-scraping", "data-analysis"]
+related_use_cases: ["email-automation", "content-generation", "project-reporting"]
 related_blog_posts: ["rise-of-agentic-ai-2026", "stop-paying-four-ai-subscriptions"]
 before:
   summary: "You're the bottleneck for every routine task"
