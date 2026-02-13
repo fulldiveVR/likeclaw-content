@@ -40,7 +40,7 @@ sections:
         values: ["BYOK any model", "GPT-4o only", "100+ included"]
         highlights: ["default", "error", "brand"]
       - label: "Pricing"
-        values: ["\"Free\" + $50-750/mo API", "$20/mo fixed", "$0-40/mo fixed tiers"]
+        values: ["\"Free\" + $50-750/mo API", "$20/mo fixed", "Pay per task ($0.001-0.10)"]
         highlights: ["error", "default", "brand"]
       - label: "Cost controls"
         values: ["None", "N/A (fixed price)", "Built-in limits"]
@@ -77,7 +77,7 @@ sections:
       - question: "Can I switch between these tools later?"
         answer: "Yes. None of these tools lock you in permanently. ChatGPT and LikeClaw are cloud-based, so there is nothing to uninstall. OpenClaw runs locally, so switching away means you stop running the process. LikeClaw is building import tools for OpenClaw skills, so migrating workflows will get easier over time."
       - question: "Which is cheapest?"
-        answer: "It depends on usage. ChatGPT Plus is a flat $20/month regardless of how much you use it. LikeClaw starts free (50 tasks/month) and caps at $40/month for unlimited use. OpenClaw's software is free, but API costs are unpredictable with no built-in limits. For predictable budgeting, LikeClaw or ChatGPT. For maximum potential savings with high risk, OpenClaw."
+        answer: "It depends on usage. ChatGPT Plus is a flat $20/month regardless of how much you use it. LikeClaw is pay as you go -- $0.001 to $0.10 per task, no subscriptions. OpenClaw's software is free, but API costs are unpredictable with no built-in limits. For transparent budgeting, LikeClaw. For simplicity, ChatGPT. For maximum potential savings with high risk, OpenClaw."
       - question: "Which is most secure?"
         answer: "ChatGPT and LikeClaw are both cloud-hosted with managed security. LikeClaw adds E2B sandboxed execution, meaning every task runs in an isolated container that is destroyed after use. OpenClaw runs with raw access to your local machine -- multiple security organizations have published warnings about this model, and researchers documented malware in the ClawHub marketplace."
       - question: "Can I use all three?"
@@ -124,7 +124,7 @@ LikeClaw is a cloud-native AI agent platform built to deliver the capabilities O
 
 **What it does well.** Every task runs in an isolated E2B sandbox container. The container is created for your execution and destroyed when it is done. Your code runs, your files persist in your workspace, but nothing touches your machine, your keys, or other users' environments. This gives you the execution power of OpenClaw with the security model of a managed cloud service.
 
-You get access to 100+ AI models -- Claude, GPT-4, Gemini, DeepSeek -- through one interface and one subscription. No juggling separate dashboards and invoices. The skills marketplace requires mandatory security review before any skill is published. Pricing is fixed tiers: Free at $0 (50 tasks), Pro at $15-20/month, Power at $40/month with BYOK and unlimited execution. Built-in cost controls mean no surprise bills.
+You get access to 100+ AI models -- Claude, GPT-4, Gemini, DeepSeek -- through one interface and one account. No juggling separate dashboards and invoices. The skills marketplace requires mandatory security review before any skill is published. Pricing is pay as you go: $0.001 to $0.10 per task depending on the model you choose. You see the cost before every run. No subscriptions, no surprise bills.
 
 Setup takes 30 seconds. Open a browser. Sign in. Run your first task.
 
@@ -140,7 +140,7 @@ These three tools are not direct substitutes. They represent different philosoph
 
 **ChatGPT** bets on simplicity and scale. The trade-off is limited agency. It is the best conversational AI available, but it cannot truly act on your behalf. For many users, that is enough. For those who need more, it is a ceiling.
 
-**LikeClaw** bets on managed security and multi-model access. The trade-off is cloud dependency and beta-stage maturity. It is the newest of the three, which means fewer users and a smaller ecosystem. But the architecture -- sandboxed execution, vetted skills, predictable pricing -- addresses the specific problems that OpenClaw's growth exposed.
+**LikeClaw** bets on managed security and multi-model access. The trade-off is cloud dependency and beta-stage maturity. It is the newest of the three, which means fewer users and a smaller ecosystem. But the architecture -- sandboxed execution, vetted skills, transparent pay-per-task pricing -- addresses the specific problems that OpenClaw's growth exposed.
 
 The right answer depends on what you actually need. If you need full local control and accept the risks, OpenClaw. If you need conversation and simplicity, ChatGPT. If you need secure agent capabilities without the setup, LikeClaw.
 

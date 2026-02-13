@@ -32,12 +32,12 @@ sections:
     items:
       - question: "Is BYOK harder to set up?"
         answer: "No. If you already have an API key from OpenAI, Anthropic, or Google, setup takes about 30 seconds. Paste your key into LikeClaw's settings, select the provider, and start using it. The platform handles routing, orchestration, and sandboxed execution. You just bring the key."
-      - question: "Can I mix BYOK with platform credits?"
-        answer: "Yes. On LikeClaw's Power plan, you can use your own API keys for providers where you have negotiated rates or high volume, and fall back to platform-included credits for everything else. You are not locked into one mode."
+      - question: "Can I mix BYOK with standard pay-per-task?"
+        answer: "Yes. You can use your own API keys for providers where you have negotiated rates or high volume, and use LikeClaw's standard pay-per-task pricing for everything else. You are not locked into one mode."
       - question: "Which providers support BYOK?"
         answer: "LikeClaw supports BYOK for OpenAI, Anthropic, Google (Gemini), DeepSeek, and any OpenAI-compatible API endpoint. If a provider offers an API key, you can bring it."
       - question: "Is BYOK right for casual users?"
-        answer: "Probably not. If you send a few dozen messages per day, the Pro plan at $15-20/month is simpler and cheaper than managing your own API keys. BYOK makes sense when your monthly API usage exceeds what a flat subscription covers, or when you need specific rate limits and enterprise terms."
+        answer: "Probably not. If you send a few dozen messages per day, LikeClaw's standard pay-per-task pricing is simpler than managing your own API keys. BYOK makes sense when your volume is high enough that direct API rates save you money, or when you need specific rate limits and enterprise terms."
 ---
 
 Every major AI platform charges you a subscription fee to use models that are available via API at a fraction of the cost. ChatGPT Plus is $20/month. Claude Pro is $20/month. Gemini Advanced is $19.99/month. Meanwhile, the actual API cost for a typical conversation -- a few hundred tokens in, a few hundred out -- is often less than a penny.
@@ -90,7 +90,7 @@ If you send a few messages per day and want simplicity, a flat subscription is f
 
 ## How LikeClaw handles BYOK
 
-LikeClaw's Power plan ($40/month) includes full BYOK support with zero markup on API calls. The platform fee covers everything except the model access itself: sandboxed E2B execution, the vetted skills marketplace, persistent workspaces, priority task execution, and the orchestration layer that routes your requests to the right model.
+LikeClaw supports full BYOK with zero markup on API calls. You bring your own keys, and the platform handles everything else: sandboxed E2B execution, the vetted skills marketplace, persistent workspaces, task execution, and the orchestration layer that routes your requests to the right model.
 
 You bring your API keys. LikeClaw provides the infrastructure. Your per-token costs are exactly what the provider charges -- nothing more.
 

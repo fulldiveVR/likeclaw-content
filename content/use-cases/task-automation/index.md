@@ -118,9 +118,9 @@ sections:
       - question: "Can I schedule automations to run on a recurring basis?"
         answer: "Yes. Set any automation to run on a schedule — hourly, daily, weekly, or triggered by an event. Monday morning reports, end-of-day data syncs, weekly competitive research. Scheduled tasks run in isolated sandbox containers in the background. You get a summary when each run completes, and you can review logs anytime."
       - question: "Can my team use shared automations?"
-        answer: "On the Team plan ($25/seat/month), you get multi-tenant workspaces with shared automations, centralized billing, and role-based access. One person builds the automation, and the whole team benefits. Individual plans (Free, Pro, Power) are single-user, but you can share automation templates with teammates who have their own accounts."
+        answer: "Team features include multi-tenant workspaces with shared automations, centralized billing, and role-based access. One person builds the automation, and the whole team benefits. Contact us for team pricing."
       - question: "How much does this cost compared to hiring someone?"
-        answer: "A virtual assistant costs $1,500-4,000/month depending on skill level and hours. LikeClaw's Pro plan is $15-20/month and handles the repetitive work that would otherwise consume 10-15 hours of human time per week. The free tier gives you 50 tasks per month to try it. And unlike hiring, there is no onboarding, no training, and no coverage gaps when someone takes a day off."
+        answer: "A virtual assistant costs $1,500-4,000/month depending on skill level and hours. LikeClaw is pay as you go — $0.001 to $0.10 per task depending on the model. It handles the repetitive work that would otherwise consume 10-15 hours of human time per week. And unlike hiring, there is no onboarding, no training, and no coverage gaps when someone takes a day off."
   - type: cta
     heading: "Stop doing work that should do itself"
     subheading: "Your first AI automation is 60 seconds away."
@@ -183,6 +183,6 @@ Based on early beta usage, the highest-impact automations fall into three bucket
 
 A virtual assistant costs $1,500-4,000/month. Open AI agent frameworks come with [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) with no built-in controls.
 
-LikeClaw's pricing is fixed and transparent. The free tier gives you 50 tasks per month to test your automations. Pro at $15-20/month handles most founder workflows. Power at $40/month adds unlimited execution and BYOK support. You know the cost before you start, and there are built-in usage limits so you never wake up to a surprise bill.
+LikeClaw's pricing is transparent. Pay as you go — every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No subscriptions, no commitments. You know the cost before you start, so you never wake up to a surprise bill.
 
 That is the difference between a tool you adopt and a tool you worry about.

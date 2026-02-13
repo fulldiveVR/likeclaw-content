@@ -133,7 +133,7 @@ The flow is: **natural language to code to execution to results, all in a sandbo
 
 This is not a chat interface that describes what analysis you could do. This is an agent that actually does the analysis. It writes the code, runs it, handles errors, and returns the output. If the first approach does not work, it tries another. If you ask a follow-up question, it builds on the previous context.
 
-For teams already using LikeClaw for [code execution](/use-cases/code-execution/), data analysis is the same underlying capability applied to a different problem. Same sandboxed environment, same persistent workspace, same predictable pricing.
+For teams already using LikeClaw for [code execution](/use-cases/code-execution/), data analysis is the same underlying capability applied to a different problem. Same sandboxed environment, same persistent workspace, same transparent pay-per-task pricing.
 
 ## What LikeClaw handles
 
@@ -159,11 +159,11 @@ LikeClaw handles it differently. Every analysis task runs inside an isolated E2B
 
 Compare this to running data analysis on your local machine with an open-source AI agent. Researchers documented [malware in open AI agent marketplaces](/blog/openclaw-security-what-you-need-to-know/) — a real risk when your data is involved. If that agent has access to your local files — including the financial data you just downloaded — you have a serious exposure. With LikeClaw, the analysis runs in the cloud, in isolation, and the container is destroyed after use. Your machine is never involved.
 
-On the Power plan with BYOK (bring your own API keys), even the AI model calls route through your own provider accounts. LikeClaw never sees your prompts or your data in transit. For operations managers handling sensitive business data, this is the difference between "probably fine" and "secure by architecture."
+With BYOK (bring your own API keys), even the AI model calls route through your own provider accounts. LikeClaw never sees your prompts or your data in transit. For operations managers handling sensitive business data, this is the difference between "probably fine" and "secure by architecture."
 
 ## Pick the right model for the job
 
-Not every analysis task needs the same model. LikeClaw gives you access to 100+ models through one subscription, so you can match the tool to the task:
+Not every analysis task needs the same model. LikeClaw gives you access to 100+ models through one account, so you can match the tool to the task:
 
 **Claude** — strong at complex reasoning over large datasets. When you need the agent to understand nuanced business context ("Which customers fit our ideal profile based on these 15 attributes?"), Claude handles multi-step reasoning well.
 
@@ -171,4 +171,4 @@ Not every analysis task needs the same model. LikeClaw gives you access to 100+ 
 
 **DeepSeek** — cost-effective for batch processing. If you are running the same analysis across 500 CSV files or processing large datasets where speed matters more than nuance, DeepSeek gets the job done at a fraction of the cost.
 
-You pick the model per task, or let LikeClaw choose the best fit automatically. One subscription covers all of them. No separate accounts, no extra charges, no juggling invoices. No more [fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) you barely use. One platform, every model, predictable pricing.
+You pick the model per task, or let LikeClaw choose the best fit automatically. One account, pay-per-task pricing, every model available. No separate accounts, no extra charges, no juggling invoices. No more [fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) you barely use. One platform, every model, transparent pricing.

@@ -92,7 +92,7 @@ sections:
       - question: "Can I use this for monorepos?"
         answer: "Yes. The sandbox has enough disk and memory for large repositories. The agent can scope its analysis to specific directories or packages within a monorepo."
       - question: "How does pricing work for heavy repo analysis?"
-        answer: "Repo cloning and analysis runs in the E2B sandbox — included in your plan's sandbox executions. Pro gets 500 executions/month, Power gets unlimited. A typical issue creation workflow uses 1-2 executions."
+        answer: "Repo cloning and analysis runs in the E2B sandbox. You pay per task — from $0.001 to $0.10 depending on the model. A typical issue creation workflow uses 1-2 tasks."
   - type: cta
     heading: "Stop writing issues by hand"
     subheading: "Let AI agents turn crash data into shipped fixes. No setup, no risk."
@@ -145,7 +145,7 @@ This format works with any CI/CD pipeline that monitors for labeled issues. If y
 
 Not every GitHub automation task needs the same AI model. Quick issue creation from a clear crash report might work fine with a cost-effective model like DeepSeek. Deep codebase analysis for a test coverage audit benefits from Claude's reasoning capabilities. LikeClaw gives you access to 100+ models through a single interface — Claude, GPT-4, Gemini, DeepSeek, and more.
 
-On the Power plan, bring your own API keys for zero markup on model calls. One platform, every model, predictable pricing from $0 to $40/month.
+Bring your own API keys for zero markup on model calls. One platform, every model, transparent pay-per-task pricing.
 
 ## Where this fits in your workflow
 

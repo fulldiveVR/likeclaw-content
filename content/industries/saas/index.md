@@ -68,9 +68,9 @@ sections:
       - label: "Annual AI tool spend per 10-person team"
         value: "$16K+"
         source: "Based on avg. $133/mo per employee"
-      - label: "Team plan cost per seat"
-        value: "$25/mo"
-        source: "LikeClaw Team plan"
+      - label: "Per-task cost"
+        value: "$0.001+"
+        source: "LikeClaw pay-per-task pricing"
   - type: steps
     heading: "Get your SaaS team running"
     subheading: "Three steps. One admin. No IT tickets."
@@ -94,7 +94,7 @@ sections:
         answer: "The skills marketplace includes integrations for common SaaS tools: Slack, GitHub, Linear, Jira, Notion, Google Workspace, and more. On the Team plan, you can also build internal skills that connect to your proprietary APIs and data sources. Every integration runs inside the sandbox, so your tool credentials are encrypted and never exposed."
   - type: cta
     heading: "Your SaaS team deserves better tools"
-    subheading: "Team plan from $25/seat/month. Coming Q2 2026."
+    subheading: "Pay-per-task pricing. Team features coming Q2 2026."
 ---
 
 ## Why SaaS companies are adopting AI agents

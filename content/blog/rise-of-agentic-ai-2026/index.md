@@ -129,9 +129,9 @@ Based on the products that have captured real revenue and real users in 2025-202
 
 **Secure by default.** Security cannot be an opt-in feature or a community fork. When AI agents execute code and access external services on the user's behalf, isolation must be architectural -- baked into the platform, not bolted on afterward. E2B sandboxed containers, vetted skill marketplaces, and encrypted credential storage are the emerging standard.
 
-**Multi-model.** Users want Claude for code, GPT-4 for reasoning, and DeepSeek for cost-sensitive tasks -- through one interface and one subscription. The era of [paying $20/month to four different providers](/blog/stop-paying-four-ai-subscriptions/) for overlapping capabilities is ending.
+**Multi-model.** Users want Claude for code, GPT-4 for reasoning, and DeepSeek for cost-sensitive tasks -- through one interface and one account. The era of [paying $20/month to four different providers](/blog/stop-paying-four-ai-subscriptions/) for overlapping capabilities is ending.
 
-**Predictable pricing.** OpenClaw's software is free, but documented [API costs are unpredictable](/blog/ai-agent-cost-comparison-2026/). Predictable tiered pricing with usage caps is not just a business model choice -- it is a security feature. Runaway costs from compromised agents or token-burning attacks become impossible when hard limits exist.
+**Predictable pricing.** OpenClaw's software is free, but documented [API costs are unpredictable](/blog/ai-agent-cost-comparison-2026/). Transparent per-task pricing with cost visibility before every run is not just a business model choice -- it is a security feature. Runaway costs from compromised agents or token-burning attacks become manageable when you see every cost before it is incurred.
 
 ## What this means for you
 
@@ -139,7 +139,7 @@ If you are a developer, the tools that make you productive are changing faster t
 
 If you are a non-technical knowledge worker, the barrier to automation is dropping to zero. Tasks you previously needed a developer for -- data processing, workflow automation, custom reporting -- are increasingly achievable through natural language. Vibe coding is not just for developers building apps. It is for anyone who wants a tool that does not exist yet and is willing to describe it.
 
-If you are a team lead or manager, the question is no longer whether to adopt AI agents, but how to do it without introducing unacceptable risk. That means evaluating platforms on security architecture (sandboxed vs. raw access), cost predictability (fixed tiers vs. uncapped API spend), and governance (audit trails, approval workflows, access controls).
+If you are a team lead or manager, the question is no longer whether to adopt AI agents, but how to do it without introducing unacceptable risk. That means evaluating platforms on security architecture (sandboxed vs. raw access), cost transparency (per-task pricing vs. uncapped API spend), and governance (audit trails, approval workflows, access controls).
 
 The shift from chatbot to agent is the most consequential change in how people interact with AI since the original ChatGPT launch. The market data, the revenue figures, and the adoption curves all point in the same direction.
 

@@ -15,9 +15,9 @@ sections:
   - type: metrics
     headline: "Do more with less"
     items:
-      - label: "Free tier tasks per month"
-        value: "50"
-        source: "LikeClaw Free plan"
+      - label: "Cost per task"
+        value: "$0.001+"
+        source: "LikeClaw pay-per-task pricing"
       - label: "Setup time"
         value: "30 sec"
         source: "Signup to first task"
@@ -25,7 +25,7 @@ sections:
         value: "100+"
         source: "Claude, GPT-4, Gemini, DeepSeek, and more"
       - label: "Virtual assistant vs LikeClaw"
-        value: "$2-5K vs $0-40"
+        value: "$2-5K vs pennies"
         source: "Monthly cost comparison"
   - type: cards
     heading: "Startup problems AI agents solve"
@@ -36,7 +36,7 @@ sections:
         description: "You are the CEO, the ops lead, and the inbox manager. Every hour spent on email triage, data formatting, and scheduling is an hour not spent on product or customers. AI agents handle the admin work so you can focus on the work that actually moves the needle."
       - icon: "BC"
         title: "Budget Constraints"
-        description: "Most professionals overspend on fragmented AI subscriptions they barely use. Startups feel that harder than anyone. One LikeClaw subscription replaces your entire AI tool stack -- Claude, GPT-4, Gemini, DeepSeek -- for $0 to $40 per month."
+        description: "Most professionals overspend on fragmented AI subscriptions they barely use. Startups feel that harder than anyone. One LikeClaw account replaces your entire AI tool stack -- Claude, GPT-4, Gemini, DeepSeek -- with pay-per-task pricing from $0.001 per task."
       - icon: "SO"
         title: "Scaling Ops"
         description: "You need to automate before you can afford to hire. AI agents let you build repeatable workflows for email, data processing, reporting, and code review now -- then hand those workflows to a human team member later when you have the budget."
@@ -44,33 +44,33 @@ sections:
   - type: features
     heading: "Why startups choose LikeClaw"
     items:
-      - title: "A Free Tier That Actually Works"
+      - title: "Pay Only for What You Use"
         badge: "Pricing"
         badge_color: "neutral"
-        description: "50 tasks per month. Basic models including GPT-4o mini, Claude Haiku, and Gemini Flash. One persistent workspace. No credit card required. No expiration date. This is not a 14-day trial with a paywall at the end. It is a permanent free tier designed to be useful on its own."
+        description: "Every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run. No subscription, no commitment, no surprise bills. Choose cheap models for simple tasks, smart models for complex work. Start from $0 and scale with your actual usage."
         bullets:
-          - "50 tasks/month, no strings attached"
-          - "Basic models included at no cost"
-          - "1 persistent workspace with file storage"
+          - "Per-task pricing from $0.001"
+          - "See costs before every run"
+          - "Persistent workspace with file storage"
           - "Access to the vetted skills marketplace"
       - title: "Multi-Model Flexibility"
         badge: "Multi-Model"
         badge_color: "blue"
-        description: "Claude, GPT-4, Gemini, DeepSeek -- all through one interface, one login, one subscription. Pick the right model for each task instead of paying $20/month to four different companies. On the Power plan, bring your own API keys with zero markup."
+        description: "Claude, GPT-4, Gemini, DeepSeek -- all through one interface, one login, one account. Pick the right model for each task instead of paying $20/month to four different companies. Bring your own API keys for zero markup."
         bullets:
-          - "100+ models from one subscription"
+          - "100+ models from one account"
           - "Switch models per task"
-          - "BYOK on Power plan for full control"
+          - "BYOK support for full control"
           - "No vendor lock-in"
       - title: "Grows With You"
         badge: "Scale"
         badge_color: "blue"
-        description: "Start free. Move to Pro at $15-20/month when you need more executions. Upgrade to Power at $40/month when you want unlimited everything and BYOK. Add team seats at $25/seat when you finally hire. The pricing curve matches a startup's growth curve."
+        description: "Start with a few cents per task. Scale to hundreds of tasks as your needs grow. Bring your own API keys when you want full control. Add team members when you hire. Pay-per-task pricing matches a startup's growth curve — you never pay for capacity you do not use."
         bullets:
-          - "Free to Pro to Power to Team"
+          - "Pay per task from day one"
           - "No cliff pricing or enterprise minimums"
           - "Usage scales with your actual needs"
-          - "Team plan ready when you are"
+          - "Team features available when you are ready"
   - type: steps
     heading: "Launch your AI workforce"
     subheading: "Three steps. Under 60 seconds. Zero infrastructure."
@@ -85,11 +85,11 @@ sections:
     heading: "Questions founders ask"
     items:
       - question: "Can I really start for free?"
-        answer: "Yes. The free tier includes 50 tasks per month, basic models (GPT-4o mini, Claude Haiku, Gemini Flash), one persistent workspace, and access to the vetted skills marketplace. No credit card required. No expiration. It is not a trial -- it is a permanent tier designed to be useful on its own. Many solo founders run their entire AI workflow on the free plan."
+        answer: "Yes. LikeClaw uses pay-per-task pricing starting from $0.001 per task. No credit card required to sign up. No subscription, no commitment. You see the cost before every run. Many solo founders run their entire AI workflow for just a few dollars a month."
       - question: "Is it powerful enough for technical work?"
         answer: "Yes. LikeClaw runs sandboxed code execution in E2B containers with persistent file storage. You can execute Python, Node.js, shell scripts, and more. You get access to 100+ models including Claude Opus, GPT-4o, and Gemini Pro on the paid plans. The same infrastructure handles data analysis, code generation, automated testing, and web automation. It is the same power as running AI agents locally, minus the 3-day setup and security exposure."
       - question: "What happens when I need more?"
-        answer: "You upgrade. Pro at $15-20/month gives you unlimited chat, 500 sandbox executions, all models, and 5 workspaces. Power at $40/month gives you unlimited everything plus BYOK support with zero markup on API calls. When you hire your first team member, the Team plan at $25/seat adds multi-tenant workspaces, SSO, and centralized billing. No cliff pricing, no enterprise minimums, no sales calls required."
+        answer: "You just use more. Pay-per-task pricing means you scale naturally — run more tasks, pay proportionally more. Every task costs between $0.001 and $0.10 depending on the model. Bring your own API keys for zero markup on model calls. When you hire your first team member, team features add multi-tenant workspaces, SSO, and centralized billing. No cliff pricing, no enterprise minimums, no sales calls required."
       - question: "Do I need to be technical to use it?"
         answer: "No. LikeClaw runs in your browser. You describe tasks in plain language. The AI agent handles execution in the cloud. There is no terminal, no command line, no config files, and no dependencies to install. If you can write an email describing what you need done, you can use LikeClaw. Technical founders get the full power of sandboxed code execution. Non-technical founders get an AI assistant that actually does things -- not just talks about them."
   - type: cta
@@ -119,15 +119,15 @@ For founders, this means the line between "technical" and "non-technical" is blu
 
 ## Cost advantage that scales with you
 
-Startup economics demand predictable costs. LikeClaw's pricing was designed for exactly this constraint.
+Startup economics demand transparent costs. LikeClaw's pricing was designed for exactly this constraint.
 
-**Free tier:** 50 tasks per month, basic models, one workspace. Enough for a solo founder running lightweight automations. No credit card. No expiration. This is where you start.
+**Pay per task.** Every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No subscription, no commitment, no surprise bills. Choose cheap models like DeepSeek for simple tasks, powerful models like Claude Opus or GPT-4o for complex work. You only pay for what you use.
 
-**Pro ($15-20/month):** Unlimited chat, 500 sandbox executions, all 100+ models including Claude Opus and GPT-4o, five workspaces. This is where most growing startups land. One subscription replaces three or four separate AI tool subscriptions.
+**100+ models, one account.** Claude, GPT-4, Gemini, DeepSeek — all accessible through one interface. No more paying $20/month to four different providers. One account replaces three or four separate AI tool subscriptions.
 
-**Power ($40/month):** Unlimited everything. Bring your own API keys with zero markup. Priority execution. Twenty-five workspaces. This is for founders who have hit scale and want full control over their AI infrastructure.
+**BYOK when you are ready.** Bring your own API keys for zero markup on model calls. Direct provider pricing with LikeClaw's sandboxed execution on top. Full control over your AI infrastructure costs.
 
-Compare that to the alternative: [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) from running AI agents locally, or [fragmented subscriptions](/blog/stop-paying-four-ai-subscriptions/) where nearly half the spending is wasted. Predictable pricing is not a nice-to-have for startups. It is a requirement.
+Compare that to the alternative: [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) from running AI agents locally, or [fragmented subscriptions](/blog/stop-paying-four-ai-subscriptions/) where nearly half the spending is wasted. Transparent pricing is not a nice-to-have for startups. It is a requirement.
 
 ## Security matters even at the early stage
 

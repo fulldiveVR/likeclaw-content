@@ -78,7 +78,7 @@ sections:
           - "default"
       - label: "BYOK support"
         values:
-          - "Yes (Power plan)"
+          - "Yes"
           - "No"
           - "No"
         highlights:
@@ -87,7 +87,7 @@ sections:
           - "muted"
       - label: "Pricing"
         values:
-          - "$0-40/mo (fixed tiers)"
+          - "Pay per task ($0.001-0.10)"
           - "$20/mo"
           - "$200/mo"
         highlights:
@@ -152,15 +152,15 @@ sections:
     heading: "Questions about ChatGPT vs LikeClaw"
     items:
       - question: "Should I cancel ChatGPT for LikeClaw?"
-        answer: "Not necessarily. They solve different problems. ChatGPT is excellent for conversation, brainstorming, writing assistance, and quick answers. LikeClaw is for when you need code execution, background automation, persistent workspaces, and multi-model access. Many users will benefit from both. That said, if you are paying $20 per month for ChatGPT Plus and mainly using it for tasks that an agent handles better -- code execution, data processing, automated workflows -- LikeClaw's free tier gives you 50 tasks per month with 100+ models at no cost."
+        answer: "Not necessarily. They solve different problems. ChatGPT is excellent for conversation, brainstorming, writing assistance, and quick answers. LikeClaw is for when you need code execution, background automation, persistent workspaces, and multi-model access. Many users will benefit from both. That said, if you are paying $20 per month for ChatGPT Plus and mainly using it for tasks that an agent handles better -- code execution, data processing, automated workflows -- LikeClaw gives you access to 100+ models with pay-per-task pricing from $0.001 per task."
       - question: "Can LikeClaw do what ChatGPT does?"
         answer: "LikeClaw supports the same underlying models, including GPT-4o, so the conversational capabilities are comparable. But LikeClaw's focus is execution, not conversation. You get sandboxed code execution, persistent file storage, background tasks, and a skills marketplace -- things ChatGPT does not offer. For pure chat, ChatGPT has a more polished conversational interface. For getting things done, LikeClaw is purpose-built."
       - question: "What about ChatGPT's Operator feature?"
         answer: "Operator lets ChatGPT perform web-based tasks like booking reservations or filling out forms. It is a step toward agentic behavior, but it is limited to browser automation within OpenAI's controlled environment. LikeClaw agents run arbitrary code in sandboxed containers, access persistent file systems, execute background tasks, and leverage a full skills marketplace. Operator is ChatGPT learning to click buttons. LikeClaw agents write and run the code."
       - question: "How does pricing compare?"
-        answer: "ChatGPT Plus is $20 per month for GPT-4o access with rate limits. ChatGPT Pro is $200 per month for higher limits and o1 pro. LikeClaw's free tier gives you 50 tasks per month with access to 100+ models including GPT-4o, Claude, Gemini, and DeepSeek. Pro is $15-20 per month for 500 sandbox executions and all models. Power is $40 per month for unlimited everything plus BYOK. You get more models, more capabilities, and lower cost."
+        answer: "ChatGPT Plus is $20 per month for GPT-4o access with rate limits. ChatGPT Pro is $200 per month for higher limits and o1 pro. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No subscription, no commitment. You get 100+ models including GPT-4o, Claude, Gemini, and DeepSeek -- more models, more capabilities, and you only pay for what you use."
       - question: "Can I use GPT-4 through LikeClaw?"
-        answer: "Yes. GPT-4o is one of over 100 models available through LikeClaw. On the free tier, you get access to GPT-4o mini and other basic models. On Pro and above, you get GPT-4o, Claude Opus, Gemini Pro, DeepSeek, and more -- all through one interface, one subscription. On the Power plan, bring your own OpenAI API key for zero markup and no rate limits from our side."
+        answer: "Yes. GPT-4o is one of over 100 models available through LikeClaw. All models -- GPT-4o, Claude Opus, Gemini Pro, DeepSeek, and more -- are accessible through one interface with pay-per-task pricing. Choose cheaper models for simple tasks, smarter models for complex ones. You can also bring your own OpenAI API key for zero markup."
   - type: cta
     heading: "When you need AI that goes beyond chat"
     subheading: "100+ models. Sandboxed execution. From $0/month."
@@ -202,19 +202,19 @@ Agents **run background tasks**. Schedule a data pipeline. Monitor a feed. Gener
 
 Agents **automate multi-step workflows** through a skills marketplace. Not a prompt template with an API call -- actual executable automation packages that chain together, pass data between steps, and handle error cases. Every skill in LikeClaw's marketplace passes mandatory security review before publishing.
 
-And agents are **multi-model by default**. LikeClaw gives you access to over 100 models -- Claude, GPT-4, Gemini, DeepSeek -- through one interface. Use the best model for each task. Bring your own API keys on the Power plan for zero markup and full control.
+And agents are **multi-model by default**. LikeClaw gives you access to over 100 models -- Claude, GPT-4, Gemini, DeepSeek -- through one interface. Use the best model for each task. Bring your own API keys for zero markup and full control.
 
 ## The cost angle
 
 ChatGPT Plus costs $20 per month. For that, you get GPT-4o with rate limits, Code Interpreter, DALL-E, and browsing. ChatGPT Pro costs $200 per month for higher rate limits and access to o1 pro mode.
 
-LikeClaw's **free tier** gives you 50 tasks per month with access to GPT-4o mini, Claude Haiku, and Gemini Flash. That is more model variety than ChatGPT Plus offers at any price.
+LikeClaw uses **pay-per-task pricing**. Every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No subscription, no commitment, no surprise bills. Choose cheap models like DeepSeek for simple tasks, powerful models like Claude Opus or GPT-4o for complex work. You only pay for what you use.
 
-LikeClaw **Pro at $15-20 per month** gives you 500 sandbox executions, every model (including GPT-4o, Claude Opus, Gemini Pro, and DeepSeek), 5 workspaces, and priority support. More models, more capabilities, lower price than ChatGPT Plus.
+That gives you access to **100+ models** -- GPT-4o, Claude Opus, Gemini Pro, DeepSeek, and more -- through one interface. More models, more capabilities, and transparent pricing that scales with your actual usage rather than a fixed monthly fee.
 
-LikeClaw **Power at $40 per month** gives you unlimited everything plus BYOK -- bring your own API keys from any provider with zero markup from us. That is less than a quarter of what ChatGPT Pro costs, with access to every major model instead of just OpenAI's.
+You can also bring your own API keys for zero markup on model calls. That is direct provider pricing with LikeClaw's sandboxed execution on top.
 
-If you are currently paying for ChatGPT Plus alongside separate Claude and Gemini subscriptions, you are likely spending $60 or more per month for fragmented access. One LikeClaw subscription [replaces that fragmentation](/blog/stop-paying-four-ai-subscriptions/).
+If you are currently paying for ChatGPT Plus alongside separate Claude and Gemini subscriptions, you are likely spending $60 or more per month for fragmented access. One LikeClaw account [replaces that fragmentation](/blog/stop-paying-four-ai-subscriptions/).
 
 ## The honest assessment
 

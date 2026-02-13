@@ -94,10 +94,10 @@ We've watched other startups in our space struggle with this. They build beautif
 
 Retrofitting billing into a product that was designed without it is one of the most expensive things a startup can do. Not in money — in architectural debt and user trust.
 
-## $0 to $40 per month
+## Pay as you go
 
-Our pricing ended up simple: Free ($0), Pro ($15-20), Power ($40), Team ($25/seat). Each tier has clear limits. Each limit is enforced by code that was written on day three and has been running ever since.
+Our pricing ended up simple: pay per task. Every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run. The billing code that enforces this was written on day three and has been running ever since.
 
-Users on the free tier know exactly what they get. Users on paid tiers know exactly what they're paying for. Nobody gets a surprise bill.
+Every user knows exactly what they are paying for. Nobody gets a surprise bill.
 
 That's not because we're generous. It's because we built billing before we built features.

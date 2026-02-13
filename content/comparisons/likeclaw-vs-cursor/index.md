@@ -71,7 +71,7 @@ sections:
           - "default"
       - label: "Pricing"
         values:
-          - "$0-40/mo"
+          - "Pay per task ($0.001-0.10)"
           - "$0-40/mo"
         highlights:
           - "default"
@@ -134,9 +134,9 @@ sections:
       - question: "Can LikeClaw write code like Cursor?"
         answer: "LikeClaw can execute code in sandboxed cloud containers, which is useful for automation scripts, data processing, and background tasks. But it is not an IDE. If you are writing, editing, and debugging application code, Cursor is purpose-built for that workflow. LikeClaw is purpose-built for running code as part of larger automated workflows."
       - question: "How do they compare on pricing?"
-        answer: "Similar range. Cursor offers a free tier, Pro at $20/month, and Business at $40/month. LikeClaw offers Free ($0), Pro ($15-20/month), Power ($40/month), and Team ($25/seat/month). Both support BYOK (bring your own API key) for users who want to control costs and avoid rate limits."
+        answer: "Different models. Cursor offers a free tier, Pro at $20/month, and Business at $40/month — fixed subscriptions. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run, no subscription required. Both support BYOK (bring your own API key) for users who want to control costs and avoid rate limits."
       - question: "Do they use the same AI models?"
-        answer: "There is overlap. Cursor supports multiple models including Claude and GPT-4. LikeClaw provides access to 100+ models from any provider — Claude, GPT-4, Gemini, DeepSeek, and open-source options — all through a single subscription. Both let you bring your own API keys."
+        answer: "There is overlap. Cursor supports multiple models including Claude and GPT-4. LikeClaw provides access to 100+ models from any provider — Claude, GPT-4, Gemini, DeepSeek, and open-source options — all through a single account with pay-per-task pricing. Both let you bring your own API keys."
   - type: cta
     heading: "Ready to automate the work outside your IDE?"
     subheading: "Keep Cursor for code. Add LikeClaw for everything else."
@@ -164,7 +164,7 @@ Specific workflows where LikeClaw fits and Cursor does not:
 - **Multi-tool orchestration**: Chain tasks across Gmail, Slack, Notion, and Linear in a single workflow
 - **Non-coding automation**: Document analysis, report generation, scheduling — tasks that do not involve an IDE at all
 
-LikeClaw runs these in sandboxed cloud containers with predictable pricing ($0-40/month), access to 100+ AI models, and a vetted skills marketplace. No local setup required. No security risks to your development machine.
+LikeClaw runs these in sandboxed cloud containers with transparent pay-per-task pricing ($0.001-0.10 per task), access to 100+ AI models, and a vetted skills marketplace. No local setup required. No security risks to your development machine.
 
 ## When to use both
 

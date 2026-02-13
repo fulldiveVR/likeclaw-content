@@ -109,7 +109,7 @@ sections:
       - question: "How is this different from Gmail filters?"
         answer: "Gmail filters are static rules: if subject contains X, move to folder Y. They can not understand context, urgency, or intent. LikeClaw's AI agent reads the full context of each email, understands relationships between senders, recognizes urgency patterns, and adapts over time. Filters sort. Agents triage."
       - question: "What about email privacy and security?"
-        answer: "Every email processing task runs inside an isolated E2B sandbox container that is created for your session and destroyed when it ends. Your credentials are encrypted, never stored in plaintext. LikeClaw never accesses your email outside the sandbox, never shares data between users, and never uses your email content for model training. On the Power plan, you can bring your own API keys for full control over the AI layer too."
+        answer: "Every email processing task runs inside an isolated E2B sandbox container that is created for your session and destroyed when it ends. Your credentials are encrypted, never stored in plaintext. LikeClaw never accesses your email outside the sandbox, never shares data between users, and never uses your email content for model training. You can also bring your own API keys for full control over the AI layer."
   - type: cta
     heading: "Ready to reclaim 35 hours/month?"
     subheading: "Join the beta. Your inbox will thank you."
@@ -147,7 +147,7 @@ LikeClaw's email automation agent handles four things:
 
 **Follow-up scheduling.** Waiting on a response from someone? The agent tracks it. Three days without a reply, it nudges you — or drafts a follow-up. No more spreadsheets tracking who owes you what.
 
-If you are already using LikeClaw for [task automation](/use-cases/task-automation/), email is a natural extension. Same platform, same sandbox, same predictable pricing.
+If you are already using LikeClaw for [task automation](/use-cases/task-automation/), email is a natural extension. Same platform, same sandbox, same transparent pricing.
 
 ## All of this runs in a sandbox
 
@@ -165,4 +165,4 @@ The math is simple. If email triage consumes 1.67 hours of your day (the average
 
 With AI email automation handling triage, priority routing, and draft generation, those 35 hours go back to the work that actually moves your product forward. More time in deep work. More time with your team. Fewer Sunday nights catching up on the inbox you ignored all week.
 
-And because LikeClaw runs in the cloud with predictable pricing — not runaway API costs — you know exactly what this costs before you start. Free tier gets you 50 tasks per month. Pro at $15-20/month covers most email workflows. No surprise bills. No calculator required.
+And because LikeClaw runs in the cloud with transparent pay-per-task pricing — not runaway API costs — you know exactly what each task costs before you run it. From $0.001 to $0.10 per task depending on the model. No subscriptions. No surprise bills. No calculator required.

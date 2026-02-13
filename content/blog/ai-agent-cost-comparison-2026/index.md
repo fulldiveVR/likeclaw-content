@@ -28,7 +28,7 @@ sections:
         values:
           - "$5-20 API"
           - "$20/mo"
-          - "$0 Free tier"
+          - "~$0.10-1 pay-per-task"
         highlights:
           - "default"
           - "default"
@@ -37,7 +37,7 @@ sections:
         values:
           - "$50-100 API"
           - "$20 + Cursor $20"
-          - "$15-20 Pro"
+          - "~$1-5 pay-per-task"
         highlights:
           - "error"
           - "default"
@@ -46,7 +46,7 @@ sections:
         values:
           - "$200-400 API"
           - "$200 Pro"
-          - "$40 Power"
+          - "~$5-20 pay-per-task"
         highlights:
           - "error"
           - "error"
@@ -55,7 +55,7 @@ sections:
         values:
           - "$750+ API"
           - "N/A"
-          - "$40 Power + BYOK"
+          - "BYOK, pay per task"
         highlights:
           - "error"
           - "muted"
@@ -64,7 +64,7 @@ sections:
         values:
           - "$250-500 each"
           - "$25/seat"
-          - "$25/seat"
+          - "Contact us"
         highlights:
           - "error"
           - "default"
@@ -82,22 +82,22 @@ sections:
       - label: "Power user monthly total"
         value: "$130-990"
         source: "API + subscription stack"
-      - label: "LikeClaw max individual cost"
-        value: "$40/mo"
-        source: "Power plan, unlimited usage"
+      - label: "LikeClaw per-task cost"
+        value: "$0.001-0.10"
+        source: "Pay as you go, per task"
   - type: faq
     heading: "Cost questions, answered"
     items:
       - question: "Why is OpenClaw so expensive if it's free?"
         answer: "OpenClaw is MIT-licensed, so the software costs nothing. But it requires an LLM API key to function. Every task, every query, every browser automation loop burns tokens billed directly by your API provider. There are no built-in cost controls, no usage caps, and no warnings before you hit $100 or $500 in a billing cycle. The software is free. The API bill is not."
       - question: "Is BYOK actually cheaper?"
-        answer: "It depends on your volume. For heavy users running 50+ agent tasks per day, bringing your own API key on the LikeClaw Power plan ($40/mo) can be significantly cheaper than paying per-token through a managed service, because you get the API provider's direct pricing with zero markup. For casual users, the included credits on Pro or even the Free tier are more cost-effective than managing your own API billing."
-      - question: "What's included in the free tier?"
-        answer: "50 tasks per month, access to basic models, 1 workspace, and sandboxed code execution. No credit card required. No time limit. It stays free as long as you stay within the 50-task cap."
+        answer: "For heavy users running 50+ agent tasks per day, bringing your own API key gives you the provider's direct pricing with zero markup from LikeClaw. For casual users, the standard pay-per-task model is simpler -- you just pick a model and see the cost before you run."
+      - question: "How does LikeClaw pricing work?"
+        answer: "Pay as you go. Every task costs between $0.001 and $0.10 depending on the model you choose. Cheap models for simple tasks, smart models for complex ones. You see the cost before every run. No credit card required to start. No subscriptions, no commitments."
       - question: "How does LikeClaw prevent surprise bills?"
-        answer: "Every plan has hard usage caps. When you hit your limit, tasks queue until the next billing cycle or you upgrade. There is no overage billing, no automatic tier bumps, and no 'we'll charge you extra for going over' fine print. You choose your ceiling before you start."
-      - question: "When does the Power plan make sense?"
-        answer: "When you are running agent workflows daily, using browser automation, processing large codebases, or bringing your own API keys to avoid per-token markup. If you consistently exceed 500 sandbox executions per month or need priority execution speed, Power pays for itself compared to the alternative of juggling multiple AI subscriptions and raw API billing."
+        answer: "You see the cost before every run. You choose the model, you see the price, you approve it. There is no background billing, no hidden fees, and no surprise invoices. You pay exactly what you choose to spend."
+      - question: "When does BYOK make sense?"
+        answer: "When you are running agent workflows daily, using browser automation, processing large codebases, or have negotiated enterprise API rates. BYOK gives you the provider's direct pricing with zero markup from LikeClaw, which can save significantly at high volumes."
 ---
 
 ## The hidden cost of "free" AI agents
@@ -144,18 +144,13 @@ The per-call cost is small. A few cents per request. But compounded across a mul
 
 We built LikeClaw's pricing model around a simple principle: **you should know what you are going to pay before you pay it**.
 
-Every plan has a fixed monthly price and hard usage caps:
+Pay as you go. Every task costs between $0.001 and $0.10 depending on the model you choose. Cheap models for quick tasks. Smart models for complex ones. You see the cost before every run -- no surprises, ever.
 
-- **Free**: $0/month. 50 tasks, basic models, 1 workspace. No credit card.
-- **Pro**: $15-20/month. Unlimited chat, 500 sandbox executions, all models, 5 workspaces.
-- **Power**: $40/month. Unlimited everything, BYOK support, priority execution.
-- **Team**: $25/seat/month. Power features plus team management and SSO.
+No subscriptions. No commitments. No overage charges. You pay exactly what you choose to spend, nothing more.
 
-There are no overage charges. When you hit your cap, tasks queue -- they do not silently bill you extra. You choose your ceiling in advance.
+For users who want to bring their own API keys, LikeClaw supports BYOK at zero markup. You pay the API provider directly at their standard rates. This gives heavy users the cost control they cannot get with OpenClaw (where there is no platform cost but also no cost guardrails) while still providing sandboxed execution, a vetted skills marketplace, and persistent workspaces.
 
-For users who want to bring their own API keys, the Power plan supports BYOK at zero markup. You pay the API provider directly at their standard rates, and LikeClaw charges only the platform fee. This gives heavy users the cost control they cannot get with OpenClaw (where there is no platform cost but also no cost guardrails) while still providing sandboxed execution, a vetted skills marketplace, and persistent workspaces.
-
-The comparison with OpenClaw is stark. A heavy OpenClaw user spending $750 per month on API fees alone could run the same workloads on LikeClaw Power for $40 per month plus their direct API costs -- with the added benefit of E2B sandboxed execution, usage dashboards, and hard spending limits. For a deeper feature-by-feature breakdown, see our [full comparison of LikeClaw vs OpenClaw](/comparisons/likeclaw-vs-openclaw/).
+The comparison with OpenClaw is stark. A heavy OpenClaw user spending $750 per month on API fees alone could run the same workloads on LikeClaw for a fraction of that -- with the added benefit of E2B sandboxed execution, full cost transparency, and the ability to see what every task costs before it runs. For a deeper feature-by-feature breakdown, see our [full comparison of LikeClaw vs OpenClaw](/comparisons/likeclaw-vs-openclaw/).
 
 ## What this means in practice
 
@@ -165,4 +160,4 @@ And like all infrastructure, cost predictability matters. You would not sign up 
 
 Yet that is exactly what OpenClaw asks you to accept. The software is free. The bill is a surprise.
 
-The market is moving toward fixed-price tiers, usage caps, and BYOK options because users have learned -- the hard way -- that "free" and "cheap" are not the same thing. The real cost of an AI agent is not the download price. It is the total monthly spend required to actually use it.
+The market is moving toward transparent per-task pricing and BYOK options because users have learned -- the hard way -- that "free" and "cheap" are not the same thing. The real cost of an AI agent is not the download price. It is the total monthly spend required to actually use it.

@@ -103,9 +103,9 @@ This compound value is something single-check tools cannot provide. Price alert 
 
 Dedicated monitoring tools are good at one thing. Uptime monitoring: $10-30/month. Price tracking: $10-20/month. Product availability: $5-15/month per site. Competitive intelligence: $50-200/month. If you need all four, you are looking at $75-265/month in monitoring subscriptions alone.
 
-LikeClaw handles all of these from a single workspace. Free tier gives you 50 tasks per month — enough to test your monitoring setup across multiple sites. Pro at $15-20/month covers daily checks across dozens of URLs. The agent runs in a sandboxed E2B container in the background. No local scripts to maintain, no browser extensions that break after updates, no API keys to manage.
+LikeClaw handles all of these from a single workspace. Pay as you go — every check costs between $0.001 and $0.10 depending on the model. The agent runs in a sandboxed E2B container in the background. No local scripts to maintain, no browser extensions that break after updates, no API keys to manage.
 
-If you are already using LikeClaw for [web scraping](/use-cases/web-scraping/), product monitoring is the same capability on a schedule. And if your monitoring data needs deeper analysis — spotting trends, comparing prices across competitors, generating reports — the same platform handles that through [task automation](/use-cases/task-automation/) workflows. One tool, predictable pricing, every monitoring need covered.
+If you are already using LikeClaw for [web scraping](/use-cases/web-scraping/), product monitoring is the same capability on a schedule. And if your monitoring data needs deeper analysis — spotting trends, comparing prices across competitors, generating reports — the same platform handles that through [task automation](/use-cases/task-automation/) workflows. One tool, transparent pricing, every monitoring need covered.
 
 ## What to monitor (and how often)
 

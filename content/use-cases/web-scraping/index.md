@@ -24,7 +24,7 @@ after:
     - "Automated competitor monitoring on schedule"
     - "Structured data extracted and formatted automatically"
     - "Cloud-based scripts with auto-recovery"
-    - "Sandboxed execution with predictable $0-40/mo cost"
+    - "Sandboxed execution with transparent pay-per-task cost"
 roi:
   headline: "Web data, on autopilot"
   metrics:
@@ -74,7 +74,7 @@ sections:
         - "Automated competitor monitoring on schedule"
         - "Structured data extracted and formatted automatically"
         - "Cloud-based scripts with auto-recovery"
-        - "Sandboxed execution with predictable $0-40/mo cost"
+        - "Sandboxed execution with transparent pay-per-task cost"
   - type: content
   - type: steps
     heading: "From URL to data in 4 steps"
@@ -122,11 +122,11 @@ Local scraping has a dependency problem. You need Python, pip, BeautifulSoup or 
 
 The cost problem is worse if you are using an AI agent framework for browser automation. Browser tasks are the single biggest token burner in open AI agent platforms — leading to [significant documented costs](/blog/ai-agent-cost-comparison-2026/) with browser automation as a primary driver. Even moderate usage of browser-based AI tasks on local frameworks runs hundreds per month because the agent has to interpret rendered pages token by token.
 
-LikeClaw eliminates both problems. The scraping script runs in an isolated E2B sandbox in the cloud — not on your machine. Dependencies are pre-installed. The headless browser lives in the container. If the script breaks, the agent detects the failure and attempts to fix it. And because execution is sandboxed and metered, your costs are predictable: $0-40/month depending on your plan, not a function of how many tokens the browser consumed.
+LikeClaw eliminates both problems. The scraping script runs in an isolated E2B sandbox in the cloud — not on your machine. Dependencies are pre-installed. The headless browser lives in the container. If the script breaks, the agent detects the failure and attempts to fix it. And because execution is sandboxed and metered, your costs are transparent: you see the price before every task runs, and you only pay for what you use.
 
 ## Five web scraping use cases that pay for themselves
 
-**Competitive pricing intelligence.** Monitor competitor pricing pages daily or weekly. The agent extracts plan names, prices, features, and limits into a structured spreadsheet. When a competitor changes their pricing — a new tier, a price drop, a feature gate — you know within hours, not weeks. For SaaS companies, this alone justifies the subscription.
+**Competitive pricing intelligence.** Monitor competitor pricing pages daily or weekly. The agent extracts plan names, prices, features, and limits into a structured spreadsheet. When a competitor changes their pricing — a new tier, a price drop, a feature gate — you know within hours, not weeks. For SaaS companies, this alone justifies the cost.
 
 **Lead generation from public directories.** Extract company names, contact information, and firmographic data from industry directories, conference attendee lists, and professional association pages. The agent structures the output for direct import into your CRM. No more copy-pasting from LinkedIn search results one profile at a time.
 
@@ -152,4 +152,4 @@ Browser automation is expensive on open AI agent frameworks because the agent pr
 
 LikeClaw takes a different approach. The AI agent writes a targeted scraping script that extracts only the data you need. The script runs in the sandbox using standard scraping libraries — not by feeding raw HTML to a language model token by token. This is orders of magnitude more efficient. The AI reasons about the page structure once, generates the extraction code, and the code runs natively.
 
-The result: LikeClaw's fixed tiers cover web scraping alongside everything else. Free gives you 50 tasks per month to test your scraping workflows. Pro at $15-20/month handles regular competitive monitoring. Power at $40/month adds unlimited execution, recurring schedules, and BYOK for full control over model costs. You know the bill before the scrape runs.
+The result: LikeClaw's pay-per-task pricing covers web scraping alongside everything else. Every task costs between $0.001 and $0.10 depending on the model you choose — you see the cost before the scrape runs. No subscriptions, no commitments, no surprise bills.

@@ -43,23 +43,23 @@ sections:
         values: ["Code execution", "$20-40/mo", "Included"]
         highlights: ["default", "error", "brand"]
       - label: "API costs"
-        values: ["API costs", "$50-750/mo", "$0-40/mo fixed"]
+        values: ["API costs", "$50-750/mo", "Pay per task"]
         highlights: ["default", "error", "brand"]
       - label: "Total monthly"
-        values: ["Total monthly", "$90-990/mo", "$0-40/mo"]
+        values: ["Total monthly", "$90-990/mo", "Pay per task"]
         highlights: ["default", "error", "brand"]
-    footer: "LikeClaw pricing: Free ($0/mo), Pro ($15-20/mo), Power ($40/mo with BYOK). Data as of February 2026."
+    footer: "LikeClaw pricing: Pay as you go, from $0.001 to $0.10 per task. No subscriptions. Data as of February 2026."
   - type: faq
     heading: "Common questions about LikeClaw pricing"
     items:
-      - question: "Can I really use all models for one price?"
-        answer: "Yes. Every LikeClaw plan includes access to Claude, GPT-4, Gemini, DeepSeek, and 100+ other models. You pick the right model for each task. No separate subscriptions, no per-model fees."
+      - question: "Can I really use all models with pay-as-you-go?"
+        answer: "Yes. LikeClaw gives you access to Claude, GPT-4, Gemini, DeepSeek, and 100+ other models. You pick the right model for each task and pay per task. Cheap models for simple tasks, smart models for complex ones. No separate subscriptions, no per-model fees."
       - question: "What if I need my own API keys?"
-        answer: "The Power plan ($40/mo) includes full BYOK support. Bring your own API keys from any provider, pay the provider directly at their rates with zero markup from us. You get complete control over your spend."
-      - question: "How does the free tier work?"
-        answer: "The free plan gives you 50 tasks per month with access to basic models and 1 workspace. No credit card required. It is enough to test every core feature before deciding to upgrade."
-      - question: "What about enterprise pricing?"
-        answer: "Team plans start at $25 per seat per month and include everything in Power plus team management, SSO, shared workspaces, and usage tracking. Contact us for custom enterprise pricing."
+        answer: "LikeClaw supports BYOK -- bring your own API keys from any provider, pay the provider directly at their rates with zero markup from us. You get complete control over your spend."
+      - question: "How does pricing work?"
+        answer: "Pay as you go. Every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No credit card required to start. No subscriptions, no commitments."
+      - question: "What about teams?"
+        answer: "Contact us for team pricing. Team features include multi-tenant workspaces, SSO, shared workspaces, and usage tracking."
 ---
 
 You are probably paying for ChatGPT Plus. And Claude Pro. And maybe Gemini Advanced. And if you write code, Cursor Pro on top of that. Each one costs $20/month. Each one gives you access to exactly one family of models. And according to Arsturn research, you are using less than 60% of what you are paying for.
@@ -104,7 +104,7 @@ The optimal setup is not picking one model and hoping it covers everything. It i
 
 ## The BYOK option: full control, zero markup
 
-For power users who want maximum control over costs, LikeClaw's Power plan ($40/mo) includes BYOK -- bring your own API keys. Connect your own keys from OpenAI, Anthropic, Google, or any other provider. Pay the provider directly at their published rates. LikeClaw adds zero markup on API calls.
+For power users who want maximum control over costs, LikeClaw supports BYOK -- bring your own API keys. Connect your own keys from OpenAI, Anthropic, Google, or any other provider. Pay the provider directly at their published rates. LikeClaw adds zero markup on API calls.
 
 This means you get the unified interface, sandboxed execution, and all the platform features, but your per-token costs are exactly what the provider charges. No middleman pricing. For teams that process high volumes, BYOK can cut costs significantly compared to paying retail subscription rates to each provider. We wrote more about this model in our [BYOK deep-dive](/blog/byok-future-of-ai-tools/).
 
@@ -116,21 +116,16 @@ OpenClaw's software is free, but users report [unpredictable API costs](/blog/ai
 
 Free software, unpredictable costs. For many users, the total cost of running OpenClaw exceeds what they would have spent on commercial subscriptions.
 
-## One subscription, every model, predictable pricing
+## One account, every model, transparent pricing
 
-LikeClaw takes a different approach. Every plan -- including the free tier -- gives you access to 100+ AI models through a single interface. Claude, GPT-4, Gemini, DeepSeek, and dozens more. You pick the right model for each task. You pay one predictable price.
+LikeClaw takes a different approach. You get access to 100+ AI models through a single interface. Claude, GPT-4, Gemini, DeepSeek, and dozens more. You pick the right model for each task. You pay per task -- from $0.001 for cheap models to $0.10 for the smartest ones. You see the cost before every run.
 
-- **Free**: $0/mo -- 50 tasks, basic models, 1 workspace
-- **Pro**: $15-20/mo -- unlimited chat, 500 sandbox executions, all models, 5 workspaces
-- **Power**: $40/mo -- unlimited everything, BYOK, priority execution
-- **Team**: $25/seat/mo -- Power features plus team management and SSO
-
-No surprise bills. No token anxiety. No forgetting to cancel a subscription you signed up for three months ago.
+No subscriptions. No commitments. No token anxiety. No forgetting to cancel something you signed up for three months ago.
 
 Every task runs in a sandboxed E2B container that is created fresh and destroyed after use. Your code executes safely. Your data stays isolated. And your monthly bill is exactly what you expected it to be.
 
 ## The math is simple
 
-If you are currently paying $80-133/month across multiple AI subscriptions and using less than 60% of what you pay for, switching to a single multi-model platform is not a luxury. It is basic cost hygiene.
+If you are currently paying $80-133/month across multiple AI subscriptions and using less than 60% of what you pay for, switching to a single pay-as-you-go platform is not a luxury. It is basic cost hygiene.
 
 Stop paying four subscriptions for the privilege of switching between four browser tabs.

@@ -109,13 +109,13 @@ The E2B sandbox runs Python with pandas, numpy, matplotlib, and other common fin
 
 If you are already using LikeClaw for [data analysis](/use-cases/data-analysis/), investment research is the same underlying capability applied to financial data. Same sandboxed environment, same persistent workspace, same multi-model access.
 
-## One subscription vs. the subscription pile
+## One account vs. the subscription pile
 
 The average professional spends $133 per month across AI subscriptions, and research from Arsturn found that 42% of that spending is wasted. If you are paying for a market data terminal, a charting tool, a portfolio tracker, and a separate AI assistant for research — that adds up fast.
 
-LikeClaw consolidates the research and analysis layer. The free tier gives you 50 tasks per month to test the workflow. Pro at $15-20/month covers scheduled analysis with 100+ models. Power at $40/month adds unlimited execution and BYOK support — bring your own API keys with zero markup. Predictable pricing, no runaway costs. Compare that to [open AI agent frameworks](/blog/stop-paying-four-ai-subscriptions/) where users report spending $50-750/month with no built-in cost controls.
+LikeClaw consolidates the research and analysis layer. Pay as you go — every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No subscriptions, no commitments, no runaway costs. Compare that to [open AI agent frameworks](/blog/stop-paying-four-ai-subscriptions/) where users report spending $50-750/month with no built-in cost controls.
 
-For a use case like weekly portfolio analysis, predictable pricing is not a convenience. It is a requirement. You need to know the cost of running this every Sunday for the next 52 weeks, not discover it retroactively.
+For a use case like weekly portfolio analysis, transparent pricing is not a convenience. It is a requirement. You need to know the cost of running this every Sunday for the next 52 weeks, not discover it retroactively.
 
 ## Building a research system, not running a task
 

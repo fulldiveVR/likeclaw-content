@@ -1,6 +1,6 @@
 ---
 title: "Sandboxed Code Execution: Run AI-Generated Code Without Risk"
-description: "Secure ai code execution in isolated E2B containers. Zero setup, predictable pricing, 100+ models. Run scripts safely in 30 seconds."
+description: "Secure ai code execution in isolated E2B containers. Zero setup, pay-per-task pricing, 100+ models. Run scripts safely in 30 seconds."
 date: 2026-02-12
 draft: false
 images: []
@@ -23,7 +23,7 @@ after:
   outcomes:
     - "Isolated E2B container — created per task, destroyed after"
     - "Encrypted credential management, keys never stored in plaintext"
-    - "Predictable pricing: $0-40/mo with built-in usage limits"
+    - "Pay-per-task pricing: $0.001 to $0.10 per task, full cost transparency"
     - "30 seconds from signup to running your first code task"
 roi:
   headline: "Safe code execution, zero setup"
@@ -59,7 +59,7 @@ sections:
         source: "Claude, GPT-4, Gemini, DeepSeek, and more"
       - label: "Cost vs local AI agents"
         value: "Up to 95% less"
-        source: "LikeClaw $0-40/mo vs local agent costs"
+        source: "LikeClaw pay-per-task vs local agent costs"
   - type: before_after
     before:
       summary: "Running AI-generated code on your local machine"
@@ -73,7 +73,7 @@ sections:
       items:
         - "Isolated E2B container — created per task, destroyed after"
         - "Encrypted credential management, keys never stored in plaintext"
-        - "Predictable pricing: $0-40/mo with built-in usage limits"
+        - "Pay-per-task pricing: $0.001 to $0.10 per task, full cost transparency"
         - "30 seconds from signup to running your first code task"
   - type: content
   - type: features
@@ -113,7 +113,7 @@ sections:
       - title: "Sign up with your email"
         description: "No credit card. No local install. No environment variables. You will be inside the platform before you would finish reading OpenClaw's getting-started guide."
       - title: "Pick your model"
-        description: "Claude for complex logic. GPT-4 for general tasks. DeepSeek for cost-effective runs. Or let LikeClaw pick the best model for the job. Bring your own keys on the Power plan."
+        description: "Claude for complex logic. GPT-4 for general tasks. DeepSeek for cost-effective runs. Or let LikeClaw pick the best model for the job. Bring your own keys for zero markup."
       - title: "Describe your task"
         description: "Tell the agent what you need: run a script, process a dataset, generate a report, test a module. Write it in plain English or paste code directly."
       - title: "Run it in the sandbox"
@@ -188,9 +188,9 @@ Not every code task needs the same AI model. LikeClaw gives you access to **100+
 - **Gemini** — solid for tasks that benefit from Google's training data and multimodal inputs
 - **DeepSeek** — cost-effective for straightforward tasks where you want to conserve credits
 
-Switch models between tasks. Or let LikeClaw pick the best model automatically based on the task type. On the Power plan, bring your own API keys for zero markup.
+Switch models between tasks. Or let LikeClaw pick the best model automatically based on the task type. Bring your own API keys for zero markup.
 
-One subscription. Every model. No juggling four dashboards and four invoices.
+One account. Every model. No juggling four dashboards and four invoices.
 
 ## How this fits your workflow
 
