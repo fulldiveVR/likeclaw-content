@@ -155,7 +155,7 @@ This matters more than you think. Most AI email tools require broad access to yo
 
 LikeClaw is different by architecture. Every email processing task runs inside an isolated E2B sandbox container. The container is created for your session, handles the work, and gets destroyed when it finishes. Your email data never touches another user's environment. Your OAuth credentials are encrypted, never stored in plaintext.
 
-Compare this to local AI agent frameworks where Snyk found 341+ malicious skills in open marketplaces and plaintext API keys sitting in config files. When your email credentials are on the line, sandboxed execution is not a nice-to-have. It is the baseline.
+Compare this to local AI agent frameworks with [documented security issues](/blog/openclaw-security-what-you-need-to-know/) — from malware in open marketplaces to plaintext credential storage. When your email credentials are on the line, sandboxed execution is not a nice-to-have. It is the baseline.
 
 For a deeper look at why this matters, see our guide on [migrating from OpenClaw](/blog/migrating-from-openclaw/) — which covers the security model differences in detail.
 

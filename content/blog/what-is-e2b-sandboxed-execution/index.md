@@ -54,9 +54,6 @@ sections:
         answer: "Containers can be configured with varying CPU, memory, and disk allocations depending on the task. Standard tasks run with sensible defaults. Larger workloads — data processing, ML inference, large codebases — can request more resources up to the limits of your plan tier. The container scales to the task, not the other way around."
       - question: "Is E2B open source?"
         answer: "Yes. E2B is open-source infrastructure (github.com/e2b-dev/e2b) with an active developer community. The sandboxing technology is transparent and auditable. LikeClaw uses E2B as the execution layer, adding our own workspace management, credential encryption, multi-model orchestration, and vetted skills marketplace on top. You get the security benefits of open-source sandboxing with the convenience of a managed platform."
-  - type: cta
-    heading: "Run code safely. No setup required."
-    subheading: "LikeClaw uses E2B sandboxed execution so your AI agent can do real work without putting your system at risk."
 ---
 
 ## What is E2B sandboxed execution
@@ -87,9 +84,9 @@ To understand why sandboxed execution matters, look at what happens without it.
 
 OpenClaw — the open-source AI agent framework that hit 150,000 GitHub stars in 10 weeks — runs AI-generated code directly on your machine. The AI agent has full shell access. It can read and write any file your user account can access. It can make network requests to any service your machine can reach. It can install packages, modify system configurations, and execute arbitrary commands.
 
-The security research that followed was not encouraging. Snyk found 341 malicious skills on ClawHub, OpenClaw's plugin marketplace. 335 of those installed macOS stealer malware (Atomic Stealer/AMOS) — software specifically designed to extract passwords, browser cookies, and cryptocurrency wallets. Separately, Snyk's analysis found that 36% of ClawHub skills contain prompt injection attacks.
+The security research that followed was not encouraging. Snyk researchers documented [widespread security issues](/blog/openclaw-security-what-you-need-to-know/) in the ClawHub marketplace, including malware distribution and prompt injection.
 
-Beyond the marketplace, the architecture itself is the problem. API keys are stored in plaintext in `~/.clawdbot`. Researchers documented a one-click remote code execution vulnerability. Kaspersky, Cisco, Snyk, Wiz, and Bitsight all published security warnings. XDA-Developers ran a headline that simply said: "Please stop using OpenClaw."
+Beyond the marketplace, the architecture itself is the problem. The platform stores credentials in plaintext, and multiple security organizations have [published warnings](/blog/openclaw-security-what-you-need-to-know/) about the architecture.
 
 This is not a theoretical risk. This is what happens when AI-generated code runs without a sandbox.
 

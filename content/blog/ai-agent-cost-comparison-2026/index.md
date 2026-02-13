@@ -76,12 +76,12 @@ sections:
       - label: "Max documented OpenClaw cost"
         value: "$3,600/mo"
         source: "Federico Viticci, 180M tokens"
-      - label: "Average AI subscription spend"
-        value: "$133/mo"
-        source: "Arsturn Research, 2026"
-      - label: "Wasted AI spend"
-        value: "42%"
-        source: "Arsturn Research, 2026"
+      - label: "Casual user monthly total"
+        value: "$25-80"
+        source: "API + subscription stack"
+      - label: "Power user monthly total"
+        value: "$130-990"
+        source: "API + subscription stack"
       - label: "LikeClaw max individual cost"
         value: "$40/mo"
         source: "Power plan, unlimited usage"
@@ -98,9 +98,6 @@ sections:
         answer: "Every plan has hard usage caps. When you hit your limit, tasks queue until the next billing cycle or you upgrade. There is no overage billing, no automatic tier bumps, and no 'we'll charge you extra for going over' fine print. You choose your ceiling before you start."
       - question: "When does the Power plan make sense?"
         answer: "When you are running agent workflows daily, using browser automation, processing large codebases, or bringing your own API keys to avoid per-token markup. If you consistently exceed 500 sandbox executions per month or need priority execution speed, Power pays for itself compared to the alternative of juggling multiple AI subscriptions and raw API billing."
-  - type: cta
-    heading: "Predictable AI costs. What a concept."
-    subheading: "From $0/month. No API roulette."
 ---
 
 ## The hidden cost of "free" AI agents
@@ -121,9 +118,9 @@ OpenClaw costs are only half the picture. Most AI-literate professionals are als
 
 The typical stack looks like this: ChatGPT Plus at $20 per month. Claude Pro at $20 per month. Gemini at $20 per month. Cursor at $20 per month for AI-assisted coding. That is **$80 per month minimum** before you have run a single autonomous agent task.
 
-According to [Arsturn research](https://www.arsturn.com/blog/why-users-are-ditching-ai-model-subscriptions), the average professional now spends $133 per month on AI subscriptions. And here is the part that should bother you: **42% of that spending is wasted** on features and capacity that goes unused. More than half of subscribers (51%) have canceled at least one AI subscription due to rising costs.
+Research shows that [most professionals are overpaying for overlapping AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) -- stacking $20/month fees from multiple providers for capabilities that largely overlap. Subscription fatigue is real, and the waste is measurable.
 
-This is the subscription fatigue problem. You are paying four companies $20 each for overlapping capabilities because no single product gives you access to all the models you need. If you also want autonomous agent capabilities, add OpenClaw's unpredictable API costs on top. We wrote about this in detail in our post on [why you should stop paying for four AI subscriptions](/blog/stop-paying-four-ai-subscriptions/).
+This is the subscription stack problem. You are paying four companies $20 each for overlapping capabilities because no single product gives you access to all the models you need. If you also want autonomous agent capabilities, add OpenClaw's unpredictable API costs on top.
 
 ## Cost breakdown by use case
 
@@ -162,10 +159,10 @@ The comparison with OpenClaw is stark. A heavy OpenClaw user spending $750 per m
 
 ## What this means in practice
 
-The AI agent market is projected to grow from $3.35 billion in 2025 to $21.11 billion by 2030, according to industry estimates. Gartner projects that 40% of enterprise apps will embed AI agents by the end of 2026. This is not a niche anymore. It is infrastructure.
+AI agents are moving from experiment to infrastructure. The [market is growing rapidly](/blog/rise-of-agentic-ai-2026/), and enterprise adoption is accelerating.
 
 And like all infrastructure, cost predictability matters. You would not sign up for a cloud hosting provider that could not tell you what your monthly bill would be. You would not adopt a SaaS tool with no pricing page and a note that says "it depends on how much you use it."
 
 Yet that is exactly what OpenClaw asks you to accept. The software is free. The bill is a surprise.
 
-The market is moving toward fixed-price tiers, usage caps, and BYOK options because users have learned -- the hard way, at $133 per month on average -- that "free" and "cheap" are not the same thing. The real cost of an AI agent is not the download price. It is the total monthly spend required to actually use it.
+The market is moving toward fixed-price tiers, usage caps, and BYOK options because users have learned -- the hard way -- that "free" and "cheap" are not the same thing. The real cost of an AI agent is not the download price. It is the total monthly spend required to actually use it.

@@ -38,9 +38,6 @@ sections:
         answer: "LikeClaw supports BYOK for OpenAI, Anthropic, Google (Gemini), DeepSeek, and any OpenAI-compatible API endpoint. If a provider offers an API key, you can bring it."
       - question: "Is BYOK right for casual users?"
         answer: "Probably not. If you send a few dozen messages per day, the Pro plan at $15-20/month is simpler and cheaper than managing your own API keys. BYOK makes sense when your monthly API usage exceeds what a flat subscription covers, or when you need specific rate limits and enterprise terms."
-  - type: cta
-    heading: "Your keys. Your models. Zero markup."
-    subheading: "BYOK on the Power plan. $40/month."
 ---
 
 Every major AI platform charges you a subscription fee to use models that are available via API at a fraction of the cost. ChatGPT Plus is $20/month. Claude Pro is $20/month. Gemini Advanced is $19.99/month. Meanwhile, the actual API cost for a typical conversation -- a few hundred tokens in, a few hundred out -- is often less than a penny.
@@ -111,7 +108,7 @@ We broke down the full cost comparison across platforms in our [AI agent cost an
 
 ## The market is moving toward BYOK
 
-This is not a niche trend. Arsturn research found that **51% of professionals have already canceled at least one AI subscription** due to cost. The average professional spends $133/month on AI tools and wastes 42% of that spending. The subscription model is showing cracks.
+This is not a niche trend. Arsturn research found that [most professionals are already cutting AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) due to rising costs and low utilization. The subscription model is showing cracks.
 
 TypingMind proved the demand. Open-source tools like LobeChat and LibreChat offer BYOK as a core feature. Even enterprise platforms are starting to support customer-managed keys.
 

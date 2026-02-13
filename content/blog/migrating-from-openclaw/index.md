@@ -15,18 +15,18 @@ sections:
     before:
       summary: "The OpenClaw experience"
       items:
-        - "3+ days to configure environment"
-        - "$50-750/month in surprise API costs"
-        - "341 malicious skills on ClawHub"
-        - "Raw system access to your entire machine"
-        - "Plaintext API keys in config files"
+        - "Multi-day environment configuration before first task"
+        - "Unpredictable monthly API costs with no spending caps"
+        - "Unvetted skills marketplace with documented security issues"
+        - "Local-only execution tied to your machine"
+        - "Plaintext credential storage on local filesystem"
     after:
       summary: "The LikeClaw experience"
       items:
-        - "30 seconds from signup to first task"
-        - "Predictable pricing from $0/month"
-        - "Vetted skills marketplace, mandatory review"
-        - "Sandboxed execution, nothing touches your machine"
+        - "Browser-based, running in under 60 seconds"
+        - "Fixed pricing tiers with built-in usage limits"
+        - "Vetted skills marketplace with mandatory security review"
+        - "Cloud-native with sandboxed execution"
         - "Encrypted credential management"
   - type: content
   - type: steps
@@ -37,7 +37,7 @@ sections:
       - title: "Recreate your key workflows"
         description: "Most OpenClaw workflows translate directly. Email automation, code execution, data processing, web scraping — all available in sandboxed mode."
       - title: "Import compatible skills"
-        description: "Our ClawHub import tool checks E2B compatibility and runs security review. Your favorite skills, minus the 341 malicious ones."
+        description: "Our ClawHub import tool checks E2B compatibility and runs security review. Your favorite skills, minus the ones that failed vetting."
       - title: "Decommission your local setup"
         description: "Once verified, clean up your local OpenClaw installation. Remove plaintext API keys from ~/.clawdbot. Your data lives safely in your encrypted LikeClaw workspace now."
   - type: logos
@@ -55,9 +55,9 @@ sections:
     heading: "Migration FAQ"
     items:
       - question: "Can I import all my OpenClaw skills?"
-        answer: "No, only ones that pass our security review. We won't import the 341 malicious ones found by Snyk researchers. You're welcome."
+        answer: "No, only ones that pass our security review. Snyk researchers found hundreds of malicious skills on ClawHub, and we won't import any of them. You're welcome."
       - question: "Will it cost more than OpenClaw?"
-        answer: "OpenClaw is 'free' until you see the API bill. Users report spending $50-750/month with no cost controls. Our Pro plan is $15-20/month with predictable usage limits. You do the math."
+        answer: "OpenClaw is 'free' until you see the API bill. Users report unpredictable monthly costs with no built-in controls. Our Pro plan is $15-20/month with predictable usage limits. See our full cost breakdown for details."
       - question: "Is the cloud as powerful as running locally?"
         answer: "For 99% of use cases, yes. E2B sandboxed containers give you code execution, file system access, and persistent workspaces — all without touching your local machine. The 1% that needs raw system access still needs local. We're at peace with that."
       - question: "What about my existing data and files?"
@@ -66,9 +66,6 @@ sections:
         answer: "The concepts are the same: skills, workspaces, model selection. The interface is simpler. If you survived configuring OpenClaw, you'll find LikeClaw borderline relaxing."
       - question: "What models does LikeClaw support?"
         answer: "Claude, GPT-4, Gemini, DeepSeek — all available through one subscription. No juggling API keys from four different providers. Or bring your own keys on the Power plan for zero markup."
-  - type: cta
-    heading: "30 seconds to switch. Seriously."
-    subheading: "No credit card. No local setup. Just your email."
 ---
 
 ## Why people are switching
@@ -77,11 +74,9 @@ OpenClaw proved something important: people want AI agents that actually do thin
 
 But proving demand and delivering a safe product are different things. And over the past few months, the gap between OpenClaw's promise and its reality has become hard to ignore.
 
-The security backlash hit first. Snyk researchers found **341 malicious skills** on the ClawHub marketplace, with 335 of them installing macOS stealer malware. Kaspersky, Cisco, Wiz, and Bitsight all published warnings. XDA-Developers ran a piece titled "Please stop using OpenClaw." Computerworld called it "a security nightmare." These aren't hot takes from people who don't understand the technology. These are security researchers who examined the code.
+The [security issues are well-documented](/blog/openclaw-security-what-you-need-to-know/) -- researchers found malware in the ClawHub marketplace, and five major security organizations published warnings. The [cost issues](/blog/ai-agent-cost-comparison-2026/) are equally clear -- users report unpredictable API bills with no built-in controls. And the setup friction -- 3+ days of local configuration -- has pushed many users toward simpler alternatives.
 
-Then the cost stories started circulating. OpenClaw is open source and free to install. But the LLM API costs are not free, and OpenClaw ships with no cost controls. Users on Reddit and Hacker News reported spending **$50 to $750 per month** — sometimes without realizing it until the bill arrived. One documented case hit $3,600 in a single month. The software is free. The surprise is not.
-
-And the setup. Oh, the setup. Three-plus days of local environment configuration, dependency management, and permission troubleshooting before you run your first task. As one HN commenter put it: "I spent three days configuring Moltbot and lost $50 in tokens." Another noted that "simpler alternatives cover 99% of what they actually need."
+As one HN commenter put it: "I spent three days configuring Moltbot and lost $50 in tokens." Another noted that "simpler alternatives cover 99% of what they actually need."
 
 ## What transfers and what doesn't
 
@@ -109,7 +104,7 @@ Beyond fixing OpenClaw's problems, LikeClaw adds things OpenClaw doesn't offer a
 
 **Zero setup.** Browser-based. No local installation, no dependency management, no permission configuration. Signup to first task in 30 seconds. Not 30 seconds if everything goes right on a clean machine with all prerequisites installed. 30 seconds, period.
 
-**Multi-model access.** Claude, GPT-4, Gemini, DeepSeek — all through one interface, one subscription. The average professional spends $133/month across multiple AI subscriptions and uses only 42% of what they pay for. One subscription covers it.
+**Multi-model access.** Claude, GPT-4, Gemini, DeepSeek -- all through one interface, one subscription. Instead of [stacking overlapping AI subscriptions](/blog/stop-paying-four-ai-subscriptions/), one plan covers every model you need.
 
 For a detailed feature-by-feature breakdown, see our [full comparison of LikeClaw vs OpenClaw](/comparisons/likeclaw-vs-openclaw/). And if you want to see what these capabilities look like in practice, our [email automation use case](/use-cases/email-automation/) walks through a complete workflow.
 

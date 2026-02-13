@@ -77,10 +77,6 @@ sections:
         answer: "NanoClaw is a promising minimal fork. At 700 lines of TypeScript, it runs inside Apple containers for basic isolation and is built on the Anthropic Agents SDK. It solves some security issues but is limited to macOS, supports fewer integrations, and is still early-stage. It is a good option if you want a local-first approach with better security than stock OpenClaw."
       - question: "How does sandboxed execution actually work?"
         answer: "Cloud-based sandboxing uses isolated containers (like E2B) that are created for each task and destroyed after completion. The agent's code runs inside this container, which has its own filesystem, network rules, and resource limits. It cannot see or touch your local machine. Think of it like running code in a clean room that gets incinerated after every use. Your files, credentials, and system remain untouched regardless of what the agent does inside the sandbox."
-  - type: cta
-    heading: "Security should not be an afterthought"
-    subheading: "Try a sandboxed AI agent. No setup. No risk to your machine."
-    button_label: "Get Early Access"
 ---
 
 ## OpenClaw proved something important

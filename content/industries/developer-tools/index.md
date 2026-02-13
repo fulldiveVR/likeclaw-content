@@ -127,13 +127,13 @@ LikeClaw is not an IDE tool. It is an AI agent platform that handles the develop
 
 **Data processing without the risk.** ETL pipelines, API endpoint testing, data migration validation, log analysis. The kind of work that involves production credentials and customer data. Running these tasks on your local machine with raw system access -- the way tools like OpenClaw work -- means a single compromised dependency or hallucinated command could exfiltrate data. In a sandbox, the blast radius is zero. The container has no access to your host filesystem or other environments.
 
-**Multi-model flexibility for different tasks.** Not every task needs the same model. Claude excels at code review and nuanced reasoning. GPT-4 handles documentation and structured output well. DeepSeek is cost-efficient for batch processing where you need volume over precision. LikeClaw gives you Claude, GPT-4, Gemini, and DeepSeek through one interface, one subscription. On the Power plan, bring your own API keys at zero markup. No more paying $20/month to four separate providers and using 42% of what you are paying for.
+**Multi-model flexibility for different tasks.** Not every task needs the same model. Claude excels at code review and nuanced reasoning. GPT-4 handles documentation and structured output well. DeepSeek is cost-efficient for batch processing where you need volume over precision. LikeClaw gives you Claude, GPT-4, Gemini, and DeepSeek through one interface, one subscription. On the Power plan, bring your own API keys at zero markup. No more paying $20/month to four separate providers for [subscriptions you barely use](/blog/stop-paying-four-ai-subscriptions/).
 
 ## Security is not optional for engineering teams
 
 When developers run AI agents, the security stakes are higher than for any other user group. Engineering teams handle production database credentials, customer PII, API keys to third-party services, and infrastructure secrets. The security model of your AI agent platform is not a feature. It is a risk calculation.
 
-OpenClaw gives AI agents raw access to the host machine. Snyk found that **36% of skills on ClawHub contain prompt injection**. Researchers documented **341 malicious skills** in the marketplace, with 335 of them installing macOS stealer malware. API keys are stored in plaintext in `~/.clawdbot`. For a solo developer experimenting on a throwaway machine, that risk might be acceptable. For an engineering team with access to production infrastructure, it is not.
+Researchers documented [serious security flaws](/blog/openclaw-security-what-you-need-to-know/) in open AI agent marketplaces — from malware distribution to plaintext credential storage. For a solo developer experimenting on a throwaway machine, that risk might be acceptable. For an engineering team with access to production infrastructure, it is not.
 
 LikeClaw's architecture eliminates this category of risk. Every execution runs in an E2B sandbox container that is isolated from the host, from other users, and from the rest of your infrastructure. Credentials are encrypted at rest and injected at runtime. The container is destroyed when the task completes. There is no persistent attack surface.
 
@@ -147,6 +147,6 @@ On the Team plan, you can build internal skills that connect to your proprietary
 
 ## What this means for your engineering budget
 
-The average developer spends **$133/month on AI subscriptions** and uses only 42% of what they pay for. Multiply that across a 10-person engineering team and you are looking at $1,330/month in AI tool spending, with over half of it wasted.
+The average developer is [overspending on fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/). Multiply that across a 10-person engineering team and the waste adds up fast.
 
 LikeClaw's Team plan is $25/seat/month. That includes every model (Claude, GPT-4, Gemini, DeepSeek), unlimited chat, sandboxed execution, persistent workspaces, SSO, and audit trails. One invoice. One dashboard. Predictable costs at the org level. Early access members get Pro free for 3 months -- enough time to integrate LikeClaw into your team's workflow before paying anything.

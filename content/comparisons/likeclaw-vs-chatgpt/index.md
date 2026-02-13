@@ -188,7 +188,7 @@ The problems start when you need AI that does more than talk.
 
 **The GPT Store is restricted by design.** GPTs can customize prompts and connect to APIs, but they cannot execute arbitrary code, access file systems, or run complex multi-step automations. They are constrained -- intentionally, for safety reasons -- but that constraint limits what they can accomplish.
 
-**One model provider, no BYOK.** ChatGPT gives you access to OpenAI's models only. GPT-4o, o1, and their variants. If Claude handles your coding tasks better, or Gemini integrates better with your Google Workspace, or DeepSeek gives you better value on certain workloads -- you need separate subscriptions to each. The average professional already spends **$133 per month across multiple AI subscriptions** and uses only 42% of what they pay for.
+**One model provider, no BYOK.** ChatGPT gives you access to OpenAI's models only. GPT-4o, o1, and their variants. If Claude handles your coding tasks better, or Gemini integrates better with your Google Workspace, or DeepSeek gives you better value on certain workloads -- you need separate subscriptions to each. The average professional is [overpaying across fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/).
 
 **Operator is early.** ChatGPT's Operator feature for autonomous web tasks launched in early 2025 and remains limited. It handles simple browser-based actions like booking reservations, but it is not general-purpose agent infrastructure. It cannot execute code, manage files, or run in the background.
 
@@ -220,7 +220,7 @@ If you are currently paying for ChatGPT Plus alongside separate Claude and Gemin
 
 ChatGPT is the best conversational AI product available today. If your primary need is a chat interface for brainstorming, writing, and quick answers, it delivers.
 
-But the AI market is moving beyond conversation. Gartner projects that **40% of enterprise applications will embed AI agents by end of 2026** -- up from less than 5% in 2025. The shift from chatbots to agents is not a prediction. It is happening.
+But the AI market is moving beyond conversation. The [shift from chatbots to agents](/blog/rise-of-agentic-ai-2026/) is accelerating. It is not a prediction. It is happening.
 
 LikeClaw is built for that shift. Sandboxed execution. Persistent workspaces. Background automation. Multi-model access. A vetted skills marketplace. These are not features you bolt onto a chat interface. They require different architecture.
 

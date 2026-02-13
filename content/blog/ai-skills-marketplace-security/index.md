@@ -53,8 +53,6 @@ sections:
         answer: "Yes. Any user can submit a skill for review. You write the skill, submit it, and our review pipeline handles the rest. Approved skills are published to the marketplace and available to all users. Rejected skills receive specific feedback on what to fix."
       - question: "How do I know if a skill on the marketplace is trustworthy?"
         answer: "Every skill in the LikeClaw marketplace has passed automated scanning and human review. Skills also run inside sandboxed containers with scoped permissions, so even if a skill behaved unexpectedly, it cannot access your system, files, or credentials outside its container."
-  - type: cta
-    heading: "5,000+ skills. 0 malware. That's the feature."
 ---
 
 ## The appeal of AI skill marketplaces

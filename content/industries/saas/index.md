@@ -57,20 +57,20 @@ sections:
           - "Budget alerts and hard limits"
           - "Centralized billing for the entire org"
   - type: metrics
-    headline: "SaaS teams using AI agents"
+    headline: "SaaS teams and AI agents"
     items:
-      - label: "Enterprise apps with AI agents by end 2026"
-        value: "40%"
-        source: "Gartner, 2025"
-      - label: "AI agent market by 2030"
-        value: "$21.1B"
-        source: "Industry research, 44.5% CAGR"
-      - label: "Avg. spent on AI subscriptions per employee"
-        value: "$133/mo"
-        source: "Arsturn research, 2026"
-      - label: "Of that spending wasted"
-        value: "42%"
-        source: "Subscription utilization study"
+      - label: "Of SaaS engineers' time on maintenance"
+        value: "30%"
+        source: "Industry engineering surveys"
+      - label: "Average tools per SaaS company"
+        value: "110+"
+        source: "Productiv SaaS Management Report"
+      - label: "Annual AI tool spend per 10-person team"
+        value: "$16K+"
+        source: "Based on avg. $133/mo per employee"
+      - label: "Team plan cost per seat"
+        value: "$25/mo"
+        source: "LikeClaw Team plan"
   - type: steps
     heading: "Get your SaaS team running"
     subheading: "Three steps. One admin. No IT tickets."
@@ -101,9 +101,9 @@ sections:
 
 The SaaS industry runs on automation. CI/CD pipelines, monitoring dashboards, automated billing, infrastructure as code. Every layer of the stack has been optimized for speed and reliability -- except the workflows that still depend on a human clicking through tools manually.
 
-That is changing. Gartner projects that **40% of enterprise applications will embed AI agents by the end of 2026**. The market for agentic AI is growing from $3.35 billion in 2025 to $21.1 billion by 2030, at a 44.5% CAGR. SaaS companies are not just adopting AI agents as users. They are embedding them into their own operations.
+That is changing. The [agentic AI market is expanding rapidly](/blog/rise-of-agentic-ai-2026/), and SaaS companies are leading adoption. They are not just using AI agents — they are embedding them into their own operations.
 
-But here is the catch: most AI agent tools were built for individual developers tinkering on their local machines. They were not built for teams. No SSO. No audit trail. No usage controls. No multi-tenant isolation. And the most popular open-source option -- OpenClaw -- comes with 341 confirmed malicious skills in its marketplace and stores API keys in plaintext. That is not a tool you roll out to a 50-person engineering team.
+But here is the catch: most AI agent tools were built for individual developers tinkering on their local machines. They were not built for teams. No SSO. No audit trail. No usage controls. No multi-tenant isolation. And the most popular open-source option has [documented security issues](/blog/openclaw-security-what-you-need-to-know/) that make it unsuitable for team deployment.
 
 ## What makes LikeClaw different for SaaS teams
 

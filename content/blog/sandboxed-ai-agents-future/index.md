@@ -115,15 +115,12 @@ sections:
       - question: "Is a cloud sandbox as powerful as running agents locally?"
         answer: "For 99% of use cases, yes. You get code execution, file storage, multi-model access, and automation skills -- all in an isolated environment. The 1% that genuinely needs raw system access (modifying local hardware, running proprietary local software) still needs a local setup. But as one HN commenter put it about local AI agents: simpler alternatives cover 99% of what people actually need. We built the simpler alternative, with sandbox security on top."
       - question: "How does a vetted skills marketplace prevent supply chain attacks?"
-        answer: "Every skill submitted to our marketplace goes through automated code scanning, sandbox testing, and human review before it is published. No exceptions. Compare this to open registries where anyone with a week-old GitHub account can publish a skill that runs with full system access. Researchers found 341 malicious packages on ClawHub, with 335 installing macOS stealer malware. A vetting process does not make supply chain attacks impossible, but it eliminates the low-hanging fruit that accounts for the vast majority of real-world exploits."
+        answer: "Every skill submitted to our marketplace goes through automated code scanning, sandbox testing, and human review before it is published. No exceptions. Compare this to open registries where anyone with a week-old GitHub account can publish a skill that runs with full system access. Researchers documented widespread malware on ClawHub. A vetting process does not make supply chain attacks impossible, but it eliminates the low-hanging fruit that accounts for the vast majority of real-world exploits."
       - question: "Why not just run AI agents in Docker locally?"
         answer: "You can. Docker provides container isolation. But you still need to manage the Docker runtime, handle networking, configure volumes, manage API keys, and maintain the environment over time. A cloud-native sandbox handles all of that as a service -- plus persistent workspaces, background execution, multi-model routing, and cost controls. Docker solves the isolation problem. A managed sandbox platform solves isolation plus everything around it."
-  - type: cta
-    heading: "Try sandboxed AI agents yourself"
-    subheading: "30 seconds to your first task. No setup. No security nightmares. No surprise bills."
 ---
 
-Gartner projects that 40% of enterprise applications will embed AI agents by the end of 2026, up from less than 5% in 2025. The demand curve is not subtle. Businesses want AI that goes beyond chat -- AI that executes code, automates workflows, monitors systems, and acts autonomously.
+The [shift from chatbots to agents](/blog/rise-of-agentic-ai-2026/) is not a prediction. It is happening. Businesses want AI that goes beyond chat -- AI that executes code, automates workflows, monitors systems, and acts autonomously.
 
 The question is no longer whether autonomous AI agents will become mainstream. It is whether the current architecture can support them without burning everything down.
 
@@ -135,9 +132,9 @@ OpenClaw is the fastest-growing open source project in recent memory. Over 150,0
 
 Then the security reports started coming in.
 
-Snyk researchers found **341 malicious skills** on ClawHub, OpenClaw's open skill marketplace. Of those, 335 used fake prerequisites to install macOS stealer malware (Atomic Stealer / AMOS). A separate Snyk analysis found that **36% of ClawHub skills contain prompt injection** vulnerabilities. Cisco demonstrated data exfiltration through a third-party skill. Kaspersky, Wiz, and Bitsight all published their own warnings.
+The [security audit results](/blog/openclaw-security-what-you-need-to-know/) were damning -- malware in the skills marketplace, prompt injection in over a third of analyzed skills, and data exfiltration demonstrated by Cisco's security team.
 
-XDA-Developers ran a headline that simply said: "Please stop using OpenClaw." Computerworld called it "a security nightmare." Gary Marcus called it "a disaster waiting to happen."
+The response from the security community was unanimous: the raw-access model is fundamentally flawed.
 
 The demand was real. The execution was not ready.
 
@@ -147,9 +144,7 @@ OpenClaw's architecture gives the AI agent full access to the host machine. Shel
 
 This is powerful. It is also the root cause of nearly every security problem the project has encountered.
 
-API keys stored in plaintext in `~/.clawdbot`. A one-click remote code execution vulnerability. An open skill registry where anyone with a GitHub account older than one week can publish executable code that runs with full system privileges. No sandboxing. No vetting process. No isolation between the agent's execution environment and the user's personal data.
-
-The project's creator, Peter Steinberger, publicly describes himself as a "vibe coder" and told The Pragmatic Engineer: "I ship code I don't read." For a personal side project, that philosophy is fine. For software that 416,000 people downloaded in a month and that has full access to their machines, it is something else.
+The platform also has architectural issues -- plaintext credential storage, documented remote code execution vulnerabilities, and an open skill registry with no vetting process. No sandboxing. No isolation between the agent's execution environment and the user's personal data.
 
 The fundamental issue is not a bug that can be patched. It is an architectural decision. When the AI agent and the user share the same execution environment, the blast radius of any mistake -- malicious skill, prompt injection, hallucinated command -- is the user's entire system.
 
@@ -182,7 +177,7 @@ The honest trade-off: if you need your AI agent to interact with local hardware 
 
 ## The skills marketplace done right
 
-OpenClaw's ClawHub has 5,705 community-built skills. It also has 341 confirmed malicious packages, 36% prompt injection rates, and no meaningful review process. The skill registry is the single biggest attack surface in the OpenClaw ecosystem, and it was designed this way on purpose: low friction, high velocity, minimal gatekeeping.
+ClawHub has thousands of community-built skills -- and [documented security problems](/blog/openclaw-security-what-you-need-to-know/) that scale with its popularity. The skill registry is the single biggest attack surface in the OpenClaw ecosystem, and it was designed this way on purpose: low friction, high velocity, minimal gatekeeping.
 
 A vetted marketplace sacrifices velocity for trust. Every skill goes through automated code scanning, sandbox testing, and human review before it is published. This is slower. It means fewer skills available at launch. But it also means zero macOS stealer malware in the catalog, which feels like a reasonable trade-off.
 
@@ -190,7 +185,7 @@ The import path matters too. Many OpenClaw users have built or customized skills
 
 ## Cost predictability: the hidden security issue
 
-OpenClaw is free software. The API costs are not. Users report spending $50 to $750 per month, with one documented case (Federico Viticci, 180 million tokens) hitting $3,600 in a single month. There are no built-in cost controls.
+OpenClaw is free software. The API costs are not. Users report [unpredictable monthly API costs](/blog/ai-agent-cost-comparison-2026/) with no built-in spending controls.
 
 This is also a security problem, not just a budgeting problem. Runaway costs from a compromised agent, a prompt injection attack that triggers expensive model calls in a loop, or a malicious skill that intentionally burns tokens -- all of these are attack vectors that exploit the absence of cost guardrails.
 
@@ -198,7 +193,7 @@ Fixed pricing tiers with usage caps address this directly. Hard limits on sandbo
 
 ## Where this is going
 
-The AI agent market is projected to grow from $3.35 billion in 2025 to $21.11 billion by 2030, a 44.5% compound annual growth rate. That growth will not happen on architectures where the agent has unrestricted access to the user's machine and the skill marketplace is an unvetted malware distribution channel.
+The [agentic AI market is growing rapidly](/blog/rise-of-agentic-ai-2026/), and that growth will not happen on architectures where the agent has unrestricted access to the user's machine and the skill marketplace is an unvetted malware distribution channel.
 
 The shift to sandboxed execution is already underway. E2B is becoming a standard building block for AI agent platforms. Cloudflare built Moltworker specifically to run OpenClaw in a containerized environment. NanoClaw, a community fork, runs in Apple containers for security. The ecosystem is converging on isolation as a requirement, not a feature.
 

@@ -120,7 +120,7 @@ If you have tried to automate this, you probably wrote a Python script or asked 
 
 Local scraping has a dependency problem. You need Python, pip, BeautifulSoup or Scrapy, a headless browser, the matching driver version, and a stable local environment. Every OS update, every dependency conflict, every firewall change can break your setup. And because the scripts run on your machine, they have access to your local file system, your credentials, and your network.
 
-The cost problem is worse if you are using an AI agent framework for browser automation. Browser tasks are the single biggest token burner in open AI agent platforms. One documented case showed $3,600/month in API costs, with browser automation tasks consuming the majority of that spend (Federico Viticci, 180M tokens). Even moderate usage of browser-based AI tasks on local frameworks runs $200-400/month because the agent has to interpret rendered pages token by token.
+The cost problem is worse if you are using an AI agent framework for browser automation. Browser tasks are the single biggest token burner in open AI agent platforms — leading to [significant documented costs](/blog/ai-agent-cost-comparison-2026/) with browser automation as a primary driver. Even moderate usage of browser-based AI tasks on local frameworks runs hundreds per month because the agent has to interpret rendered pages token by token.
 
 LikeClaw eliminates both problems. The scraping script runs in an isolated E2B sandbox in the cloud — not on your machine. Dependencies are pre-installed. The headless browser lives in the container. If the script breaks, the agent detects the failure and attempts to fix it. And because execution is sandboxed and metered, your costs are predictable: $0-40/month depending on your plan, not a function of how many tokens the browser consumed.
 
@@ -142,13 +142,13 @@ Every scraping task on LikeClaw runs inside an isolated E2B container. The conta
 
 This matters for two reasons. First, you are visiting external websites. If a target page contains malicious JavaScript, a redirect to a phishing page, or a payload designed to exploit browser vulnerabilities, it runs inside the sandbox — not on your laptop. The blast radius is a disposable container, not your development environment.
 
-Second, scraping scripts often need API keys or credentials to push data to downstream tools. On LikeClaw, those credentials are encrypted and scoped to the sandbox session. Compare this to local AI agent frameworks where Snyk researchers found plaintext API keys stored in `~/.clawdbot` — exposed to every skill and extension running on the same machine, including the 341+ confirmed malicious skills found on the ClawHub marketplace.
+Second, scraping scripts often need API keys or credentials to push data to downstream tools. On LikeClaw, those credentials are encrypted and scoped to the sandbox session. Compare this to local AI agent frameworks where plaintext API keys are [exposed to documented security vulnerabilities](/blog/openclaw-security-what-you-need-to-know/) in the open marketplace.
 
 If you are already using LikeClaw for [task automation](/use-cases/task-automation/), web scraping is a natural extension. Same sandbox, same workspace, same pricing. Scrape the data, process it, push the results to your tools — all in one automated workflow.
 
 ## Predictable costs vs. the token-burning alternative
 
-Browser automation is expensive on open AI agent frameworks because the agent processes entire rendered pages through the language model. Every DOM element, every CSS class, every piece of boilerplate HTML burns tokens. Federico Viticci documented $3,600 in a single month of heavy usage, with browser tasks being a primary driver of that cost.
+Browser automation is expensive on open AI agent frameworks because the agent processes entire rendered pages through the language model. Every DOM element, every CSS class, every piece of boilerplate HTML burns tokens. Users have documented [thousands of dollars in monthly costs](/blog/ai-agent-cost-comparison-2026/), with browser tasks being a primary driver of that spend.
 
 LikeClaw takes a different approach. The AI agent writes a targeted scraping script that extracts only the data you need. The script runs in the sandbox using standard scraping libraries — not by feeding raw HTML to a language model token by token. This is orders of magnitude more efficient. The AI reasons about the page structure once, generates the extraction code, and the code runs natively.
 

@@ -131,38 +131,6 @@ sections:
           - "error"
           - "muted"
     footer: "Data as of February 2026. OpenClaw stats from Snyk, Kaspersky, and documented user reports."
-  - type: metrics
-    headline: "The numbers speak for themselves"
-    items:
-      - label: "Malicious skills found on ClawHub"
-        value: "341+"
-        source: "Snyk Research, Feb 2026"
-      - label: "Of ClawHub skills contain prompt injection"
-        value: "36%"
-        source: "Snyk ToxicSkills Report"
-      - label: "Monthly surprise API costs for OpenClaw users"
-        value: "$50-750"
-        source: "Documented user reports"
-      - label: "Typical setup time for OpenClaw"
-        value: "3+ days"
-        source: "Community reports, HN/Reddit"
-  - type: before_after
-    before:
-      summary: "With OpenClaw"
-      items:
-        - "341 malicious skills in an unvetted marketplace, including macOS stealer malware"
-        - "Raw system access with plaintext API keys stored in ~/.clawdbot"
-        - "No cost controls -- users report $50 to $750/month in surprise API bills"
-        - "3+ days of local environment setup, dependency management, and config"
-        - "Five name changes in three months. Security warnings from Kaspersky, Cisco, Snyk, Wiz, and Bitsight"
-    after:
-      summary: "With LikeClaw"
-      items:
-        - "Vetted skills marketplace with mandatory security review before publishing"
-        - "E2B sandboxed execution -- isolated container created per task, destroyed after"
-        - "Predictable pricing from $0 to $40/month with built-in usage limits"
-        - "30 seconds from signup to your first task. Browser-based, zero config"
-        - "One name. Production-grade architecture. Sleep-at-night security"
   - type: content
   - type: steps
     heading: "How to switch from OpenClaw"
@@ -202,9 +170,9 @@ OpenClaw had the right idea. An AI agent that goes beyond chat. One that execute
 
 Then the security researchers showed up.
 
-Snyk found **341 malicious skills** on ClawHub -- 335 of them installing macOS stealer malware called Atomic Stealer. That same research found prompt injection vulnerabilities in **36% of all skills analyzed**. Cisco demonstrated how a third-party skill could exfiltrate data from your machine. Kaspersky published a full security advisory. Wiz and Bitsight issued their own warnings.
+Snyk found [hundreds of malicious skills](/blog/openclaw-security-what-you-need-to-know/) in the ClawHub marketplace. Cisco demonstrated data exfiltration. Five security organizations published warnings. The details are in [our security breakdown](/blog/openclaw-security-what-you-need-to-know/).
 
-XDA-Developers ran a headline that just said: "Please stop using OpenClaw." Gary Marcus called it "a disaster waiting to happen." Computerworld called it "a security nightmare."
+The security community's response was unambiguous -- multiple publications recommended against using the platform.
 
 The problems go deeper than the marketplace. OpenClaw stores API keys in plaintext in `~/.clawdbot`. It runs with raw access to your entire filesystem. Researchers documented a one-click remote code execution vulnerability. And the project's own creator, Peter Steinberger, told The Pragmatic Engineer: **"I ship code I don't read."**
 
@@ -214,9 +182,9 @@ That is not a confidence-inspiring philosophy for software with full access to y
 
 The software is free. The API costs are not.
 
-OpenClaw has no built-in cost controls. Browser automation burns through vision model tokens at an alarming rate. Users on Reddit and Hacker News report monthly bills between **$50 and $750** -- and one documented power user, Federico Viticci, burned through 180 million tokens for roughly **$3,600 in a single month**.
+OpenClaw has no built-in cost controls. Browser automation burns through vision model tokens at an alarming rate. Users report [unpredictable monthly API costs](/blog/ai-agent-cost-comparison-2026/) with no built-in controls.
 
-Meanwhile, the average professional already spends $133 per month across multiple AI subscriptions and uses only 42% of what they pay for. OpenClaw does not solve that problem. It makes it worse.
+[AI subscription spending is already a problem](/blog/stop-paying-four-ai-subscriptions/) for most professionals. OpenClaw does not solve that problem. It makes it worse.
 
 LikeClaw has fixed pricing tiers from $0 to $40 per month with built-in usage limits and credit tracking. You know what you will pay before you pay it.
 

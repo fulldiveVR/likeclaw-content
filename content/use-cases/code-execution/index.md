@@ -14,10 +14,10 @@ related_blog_posts: ["sandboxed-ai-agents-future", "what-is-e2b-sandboxed-execut
 before:
   summary: "Running AI-generated code directly on your local machine"
   pain_points:
-    - "Full system access — one bad script and your machine is compromised"
-    - "OpenClaw stores API keys in plaintext at ~/.clawdbot"
-    - "Browser automation burns through tokens — $50-750/mo with no controls"
-    - "3+ days to configure local environment and dependencies"
+    - "Full system access — one bad script compromises your machine"
+    - "Credentials stored in plaintext config files"
+    - "Unpredictable monthly costs with no spending controls"
+    - "Multi-day local environment and dependency setup"
 after:
   summary: "Running AI-generated code in an isolated cloud sandbox"
   outcomes:
@@ -59,15 +59,15 @@ sections:
         source: "Claude, GPT-4, Gemini, DeepSeek, and more"
       - label: "Cost vs local AI agents"
         value: "Up to 95% less"
-        source: "$0-40/mo vs $50-750/mo documented"
+        source: "LikeClaw $0-40/mo vs local agent costs"
   - type: before_after
     before:
       summary: "Running AI-generated code on your local machine"
       items:
-        - "Full system access — one bad script and your machine is compromised"
-        - "OpenClaw stores API keys in plaintext at ~/.clawdbot"
-        - "Browser automation burns through tokens — $50-750/mo with no controls"
-        - "3+ days to configure local environment and dependencies"
+        - "Full system access — one bad script compromises your machine"
+        - "Credentials stored in plaintext config files"
+        - "Unpredictable monthly costs with no spending controls"
+        - "Multi-day local environment and dependency setup"
     after:
       summary: "Running AI-generated code in a sandbox"
       items:
@@ -144,11 +144,9 @@ The problem is where it runs.
 
 If you are using OpenClaw or a similar local AI agent, that code runs directly on your machine. Full system access. Full filesystem access. Full network access. One malicious script — or one hallucinated `rm -rf` — and your development environment is gone.
 
-This is not a theoretical risk. Snyk researchers found that **36% of skills on OpenClaw's ClawHub marketplace contain prompt injection**. Cisco demonstrated data exfiltration through third-party skills. Kaspersky, Wiz, and Bitsight all published security warnings. XDA-Developers ran a headline that said simply: "Please stop using OpenClaw."
+Security researchers have documented [significant vulnerabilities](/blog/openclaw-security-what-you-need-to-know/) in local AI agent frameworks — from malware in skill marketplaces to plaintext credential storage and remote code execution exploits. Multiple security organizations have published warnings.
 
-And then there is the credential problem. OpenClaw stores API keys in plaintext at `~/.clawdbot`. Every skill you install can read those keys. The one-click RCE vulnerability documented by security researchers means a single bad skill can take over your machine entirely.
-
-You wanted an AI agent that writes and runs code. You got a security nightmare with a $50-750/month bill attached.
+You wanted an AI agent that writes and runs code. You got a security risk with [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) attached.
 
 ## What sandboxed execution actually means
 

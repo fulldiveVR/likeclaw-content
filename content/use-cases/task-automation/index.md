@@ -163,7 +163,7 @@ With LikeClaw, you get this capability without the setup tax. No local installat
 
 This is the part that matters most if you are trusting an AI agent with your business data.
 
-Most AI automation tools either run on shared infrastructure with no isolation or require local execution that exposes your entire machine. The local approach is what led to the security warnings from Kaspersky, Cisco, and Snyk about open AI agent frameworks — 341+ malicious skills in open marketplaces, plaintext API keys, and raw system access.
+Most AI automation tools either run on shared infrastructure with no isolation or require local execution that exposes your entire machine. The local approach is what led to security warnings from multiple organizations about open AI agent frameworks with [documented security issues](/blog/openclaw-security-what-you-need-to-know/) — including malware distribution and plaintext credential storage.
 
 LikeClaw takes a different approach. Every automation runs inside an isolated E2B sandbox container. The container is created for your specific task, executes the work, and gets destroyed when it finishes. Your data never touches another user's environment. Your credentials are encrypted, never stored in plaintext. If something goes wrong, the blast radius is a single container — not your entire system.
 
@@ -181,7 +181,7 @@ Based on early beta usage, the highest-impact automations fall into three bucket
 
 ## Predictable cost, not predictable headaches
 
-A virtual assistant costs $1,500-4,000/month. Open AI agent frameworks come with unpredictable API costs — users report spending $50-750/month with no built-in cost controls, and one documented case hit $3,600 in a single month.
+A virtual assistant costs $1,500-4,000/month. Open AI agent frameworks come with [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) with no built-in controls.
 
 LikeClaw's pricing is fixed and transparent. The free tier gives you 50 tasks per month to test your automations. Pro at $15-20/month handles most founder workflows. Power at $40/month adds unlimited execution and BYOK support. You know the cost before you start, and there are built-in usage limits so you never wake up to a surprise bill.
 

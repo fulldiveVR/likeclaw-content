@@ -101,7 +101,7 @@ sections:
     heading: "Common questions about data analysis"
     items:
       - question: "Is my data safe during analysis?"
-        answer: "Yes. Every analysis task runs inside an isolated E2B sandbox container. The container is created for your session, processes your data, and gets destroyed when the task completes. Your data never touches other users' environments, is never used for model training, and credentials are encrypted — never stored in plaintext. Compare this to local AI tools where Snyk found 341+ malicious skills and plaintext API keys in open marketplaces."
+        answer: "Yes. Every analysis task runs inside an isolated E2B sandbox container. The container is created for your session, processes your data, and gets destroyed when the task completes. Your data never touches other users' environments, is never used for model training, and credentials are encrypted — never stored in plaintext. Compare this to local AI tools with [documented security issues](/blog/openclaw-security-what-you-need-to-know/) in open marketplaces."
       - question: "What data formats and sources are supported?"
         answer: "LikeClaw handles CSV, JSON, TSV, and Excel files via direct upload. You can also connect live data sources: Google Sheets, PostgreSQL, MySQL, REST APIs, and S3 buckets. If your data source has an API, the AI agent can pull from it — all within the sandbox."
       - question: "Can it generate charts and visualizations?"
@@ -157,7 +157,7 @@ This is the part most data analysis tools skip over. When you upload a revenue s
 
 LikeClaw handles it differently. Every analysis task runs inside an isolated E2B sandbox — a container that is created for your session, processes your data, and gets destroyed when the task finishes. Your data never touches another user's environment. File uploads go directly into the sandbox, not a shared storage layer. Database credentials are encrypted and scoped to the sandbox session.
 
-Compare this to running data analysis on your local machine with an open-source AI agent. Snyk researchers found 341+ malicious skills in open agent marketplaces, with 335 of them installing macOS stealer malware. If that agent has access to your local files — including the financial data you just downloaded — you have a serious exposure. With LikeClaw, the analysis runs in the cloud, in isolation, and the container is destroyed after use. Your machine is never involved.
+Compare this to running data analysis on your local machine with an open-source AI agent. Researchers documented [malware in open AI agent marketplaces](/blog/openclaw-security-what-you-need-to-know/) — a real risk when your data is involved. If that agent has access to your local files — including the financial data you just downloaded — you have a serious exposure. With LikeClaw, the analysis runs in the cloud, in isolation, and the container is destroyed after use. Your machine is never involved.
 
 On the Power plan with BYOK (bring your own API keys), even the AI model calls route through your own provider accounts. LikeClaw never sees your prompts or your data in transit. For operations managers handling sensitive business data, this is the difference between "probably fine" and "secure by architecture."
 
@@ -171,4 +171,4 @@ Not every analysis task needs the same model. LikeClaw gives you access to 100+ 
 
 **DeepSeek** — cost-effective for batch processing. If you are running the same analysis across 500 CSV files or processing large datasets where speed matters more than nuance, DeepSeek gets the job done at a fraction of the cost.
 
-You pick the model per task, or let LikeClaw choose the best fit automatically. One subscription covers all of them. No separate accounts, no extra charges, no juggling invoices. The average professional spends $133/month on AI subscriptions and wastes 42% of that spend. One platform, every model, predictable pricing.
+You pick the model per task, or let LikeClaw choose the best fit automatically. One subscription covers all of them. No separate accounts, no extra charges, no juggling invoices. No more [fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) you barely use. One platform, every model, predictable pricing.

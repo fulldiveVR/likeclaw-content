@@ -36,7 +36,7 @@ sections:
         description: "You are the CEO, the ops lead, and the inbox manager. Every hour spent on email triage, data formatting, and scheduling is an hour not spent on product or customers. AI agents handle the admin work so you can focus on the work that actually moves the needle."
       - icon: "BC"
         title: "Budget Constraints"
-        description: "The average professional spends $133/month across AI subscriptions and wastes 42% of it. Startups feel that harder than anyone. One LikeClaw subscription replaces your entire AI tool stack -- Claude, GPT-4, Gemini, DeepSeek -- for $0 to $40 per month."
+        description: "Most professionals overspend on fragmented AI subscriptions they barely use. Startups feel that harder than anyone. One LikeClaw subscription replaces your entire AI tool stack -- Claude, GPT-4, Gemini, DeepSeek -- for $0 to $40 per month."
       - icon: "SO"
         title: "Scaling Ops"
         description: "You need to automate before you can afford to hire. AI agents let you build repeatable workflows for email, data processing, reporting, and code review now -- then hand those workflows to a human team member later when you have the budget."
@@ -101,7 +101,7 @@ sections:
 
 Every founder knows the math. There is more work than there are people to do it. You are building product, managing operations, answering emails, analyzing data, handling customer support, and preparing investor updates -- often in the same afternoon. The phrase "wearing too many hats" understates it. You are running an entire company with a headcount that would barely staff a department at a larger org.
 
-The instinct is to hire. But hiring costs money you may not have, takes months to execute, and adds management overhead to an already stretched founder. The other instinct is to subscribe to every AI tool that promises to help. The average professional now spends **$133 per month on AI subscriptions** and wastes 42% of it. For a startup burning runway, that waste is not a rounding error. It is a survival question. If you are juggling ChatGPT Plus, Claude Pro, a Gemini subscription, and a couple of automation tools, you are likely [paying for four AI subscriptions you do not need](/blog/stop-paying-four-ai-subscriptions/).
+The instinct is to hire. But hiring costs money you may not have, takes months to execute, and adds management overhead to an already stretched founder. The other instinct is to subscribe to every AI tool that promises to help. The average professional is [wasting nearly half their AI subscription spend](/blog/stop-paying-four-ai-subscriptions/). For a startup burning runway, that waste is not a rounding error. It is a survival question. If you are juggling ChatGPT Plus, Claude Pro, a Gemini subscription, and a couple of automation tools, you are almost certainly overpaying.
 
 ## AI agents as a fractional team member
 
@@ -127,13 +127,13 @@ Startup economics demand predictable costs. LikeClaw's pricing was designed for 
 
 **Power ($40/month):** Unlimited everything. Bring your own API keys with zero markup. Priority execution. Twenty-five workspaces. This is for founders who have hit scale and want full control over their AI infrastructure.
 
-Compare that to the alternative: $50-750 per month in unpredictable API costs from running AI agents locally, or $133 per month spread across AI subscriptions where nearly half the spending is wasted. Predictable pricing is not a nice-to-have for startups. It is a requirement.
+Compare that to the alternative: [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) from running AI agents locally, or [fragmented subscriptions](/blog/stop-paying-four-ai-subscriptions/) where nearly half the spending is wasted. Predictable pricing is not a nice-to-have for startups. It is a requirement.
 
 ## Security matters even at the early stage
 
 Startups handle sensitive data from day one. Customer information, financial projections, investor communications, proprietary code, strategic plans. The assumption that security is a problem for later-stage companies is how breaches happen.
 
-Running AI agents with raw access to your local machine -- the model used by most open-source AI agent frameworks -- means your customer data, your API keys, and your entire filesystem are exposed to whatever the agent decides to do. Researchers found **341 malicious skills** in one popular marketplace, with 36% of analyzed skills containing prompt injection attacks. That is not a theoretical risk. That is a documented one.
+Running AI agents with raw access to your local machine -- the model used by most open-source AI agent frameworks -- means your customer data, your API keys, and your entire filesystem are exposed to whatever the agent decides to do. Researchers found [serious security issues](/blog/openclaw-security-what-you-need-to-know/) in popular open-source AI agent marketplaces. That is not a theoretical risk. That is a documented one.
 
 LikeClaw runs every task in an isolated E2B sandbox container. The container is created for your execution, handles the work, and is destroyed when it finishes. Your data never touches other users' environments. Credentials are encrypted at rest and injected at runtime. Even at the free tier, you get the same sandboxed security model as enterprise customers.
 

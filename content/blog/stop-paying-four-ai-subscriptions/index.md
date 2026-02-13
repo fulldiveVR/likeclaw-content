@@ -60,9 +60,6 @@ sections:
         answer: "The free plan gives you 50 tasks per month with access to basic models and 1 workspace. No credit card required. It is enough to test every core feature before deciding to upgrade."
       - question: "What about enterprise pricing?"
         answer: "Team plans start at $25 per seat per month and include everything in Power plus team management, SSO, shared workspaces, and usage tracking. Contact us for custom enterprise pricing."
-  - type: cta
-    heading: "One subscription. Every model."
-    subheading: "From $0/month. No surprise bills."
 ---
 
 You are probably paying for ChatGPT Plus. And Claude Pro. And maybe Gemini Advanced. And if you write code, Cursor Pro on top of that. Each one costs $20/month. Each one gives you access to exactly one family of models. And according to Arsturn research, you are using less than 60% of what you are paying for.
@@ -115,11 +112,9 @@ This means you get the unified interface, sandboxed execution, and all the platf
 
 OpenClaw is the most popular open-source AI agent right now, with 150K+ GitHub stars. The software is free. The API costs are not.
 
-Without built-in cost controls, OpenClaw users regularly report monthly API bills between **$50 and $750**. One well-documented case -- technology journalist Federico Viticci -- hit **$3,600 in a single month** burning through 180 million tokens. The project runs on your own hardware, connects to whichever LLM you configure, and sends API calls with no spending caps, no usage alerts, and no automatic shutoffs.
+OpenClaw's software is free, but users report [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) that dwarf the subscription savings. The project runs on your own hardware, connects to whichever LLM you configure, and sends API calls with no spending caps, no usage alerts, and no automatic shutoffs.
 
 Free software, unpredictable costs. For many users, the total cost of running OpenClaw exceeds what they would have spent on commercial subscriptions.
-
-We broke down the full cost comparison in our [AI agent cost analysis](/blog/ai-agent-cost-comparison-2026/).
 
 ## One subscription, every model, predictable pricing
 

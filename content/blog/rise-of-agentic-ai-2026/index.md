@@ -51,9 +51,6 @@ sections:
         answer: "Start with a single, well-defined workflow you repeat often -- email triage, code review, data processing, report generation. Use a platform that offers sandboxed execution so you are not exposing your system to risk. Begin with supervised mode where you approve actions before the agent executes them, then gradually expand autonomy as you build trust. The goal is not to automate everything on day one. It is to find the one workflow where an agent saves you hours per week, prove the value, and expand from there."
       - question: "What is the difference between a chatbot and an AI agent?"
         answer: "A chatbot responds to your prompts within a conversation window. An AI agent takes action. It can execute code, read and write files, interact with APIs, monitor external systems, and complete multi-step tasks autonomously. A chatbot tells you how to write a Python script. An AI agent writes the script, runs it in a sandbox, debugs any errors, and hands you the results. The distinction matters because the value of AI shifts dramatically when it moves from advice to execution."
-  - type: cta
-    heading: "See agentic AI in action"
-    subheading: "From signup to your first autonomous task in 30 seconds. No setup. No surprise bills."
 ---
 
 For the past three years, the dominant interface for AI has been a text box. You type a question. The AI types an answer. You read it, decide whether it is useful, and then go do the actual work yourself.
@@ -104,13 +101,13 @@ Why this matters: when every AI agent speaks the same integration language, the 
 
 No serious AI platform in 2026 can get away with offering a single model. Users expect access to Claude, GPT-4, Gemini, DeepSeek, and open-source models through a single interface. The reason is practical: different models have different strengths. Claude is strong at coding. GPT-4 excels at general reasoning. DeepSeek offers competitive quality at lower cost. Forcing users to pick one -- and pay for separate subscriptions to each provider -- is a losing proposition.
 
-The average professional currently spends **$133 per month on AI subscriptions** and uses only 42% of what they pay for. 51% have canceled at least one AI subscription due to rising costs. The market is moving toward consolidation: one interface, many models, one bill.
+The average professional is [paying for multiple overlapping AI subscriptions](/blog/stop-paying-four-ai-subscriptions/) they barely use. The market is moving toward consolidation: one interface, many models, one bill.
 
 ### 5. Sandboxed execution is the new baseline
 
 This trend crystallized around the OpenClaw security crisis. OpenClaw -- the open-source AI agent that collected over 150,000 GitHub stars in 10 weeks -- proved massive demand for autonomous AI agents. It also exposed the fundamental flaw in giving AI agents raw access to the user's machine.
 
-Security researchers found **341 malicious packages** in OpenClaw's skill marketplace. **36% of skills** contained prompt injection vulnerabilities (Snyk). Kaspersky, Cisco, Wiz, and Bitsight all published warnings. The project's open registry model, combined with raw system access and zero vetting, created a supply chain attack surface that scaled with the project's popularity.
+Security researchers found [widespread malware and prompt injection](/blog/openclaw-security-what-you-need-to-know/) in OpenClaw's skill marketplace, prompting warnings from Kaspersky, Cisco, Snyk, Wiz, and Bitsight. The project's open registry model, combined with raw system access and zero vetting, created a supply chain attack surface that scaled with the project's popularity.
 
 The lesson was not that AI agents are dangerous. The lesson was that AI agents need an execution boundary. Sandboxed environments -- isolated containers that spin up for each task and get destroyed afterward -- are now the expected architecture for any platform that runs code on behalf of users. This is the same isolation model that powers AWS Lambda, Google Cloud Run, and Cloudflare Workers. Applying it to AI agents was overdue.
 
@@ -132,9 +129,9 @@ Based on the products that have captured real revenue and real users in 2025-202
 
 **Secure by default.** Security cannot be an opt-in feature or a community fork. When AI agents execute code and access external services on the user's behalf, isolation must be architectural -- baked into the platform, not bolted on afterward. E2B sandboxed containers, vetted skill marketplaces, and encrypted credential storage are the emerging standard.
 
-**Multi-model.** Users want Claude for code, GPT-4 for reasoning, and DeepSeek for cost-sensitive tasks -- through one interface and one subscription. The era of paying $20/month to four different providers and using 42% of each is ending.
+**Multi-model.** Users want Claude for code, GPT-4 for reasoning, and DeepSeek for cost-sensitive tasks -- through one interface and one subscription. The era of [paying $20/month to four different providers](/blog/stop-paying-four-ai-subscriptions/) for overlapping capabilities is ending.
 
-**Predictable pricing.** OpenClaw's software is free, but documented user costs range from $50 to $750 per month, with one case hitting $3,600. Predictable tiered pricing with usage caps is not just a business model choice -- it is a security feature. Runaway costs from compromised agents or token-burning attacks become impossible when hard limits exist.
+**Predictable pricing.** OpenClaw's software is free, but documented [API costs are unpredictable](/blog/ai-agent-cost-comparison-2026/). Predictable tiered pricing with usage caps is not just a business model choice -- it is a security feature. Runaway costs from compromised agents or token-burning attacks become impossible when hard limits exist.
 
 ## What this means for you
 
