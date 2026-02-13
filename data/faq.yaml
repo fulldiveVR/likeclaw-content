@@ -1,0 +1,23 @@
+- question: "Can't I just self-host OpenClaw for free?"
+  answer: "You can. If you have 3 days for setup. If you're comfortable with 341 confirmed malicious skills in the marketplace. If you trust raw system access to your machine. And if you budget for $50-750/month in surprise API costs with no built-in cost controls. We built LikeClaw for people who tried OpenClaw and decided they'd rather ship work than debug their AI agent's environment."
+
+- question: "How is this different from ChatGPT Plus?"
+  answer: "ChatGPT is a chat interface. It talks about doing things. LikeClaw actually does them. We run sandboxed code execution, persistent file systems, autonomous background tasks, and a skills marketplace. ChatGPT's Code Interpreter runs in a limited sandbox with no persistence. Short version: ChatGPT is a conversation. LikeClaw is an agent."
+
+- question: "Is my data safe in your cloud?"
+  answer: "Safer than on your local machine running OpenClaw. Every execution runs in an isolated secure sandbox. It's created for your task, handles the execution, and gets destroyed. Your data never touches other users' environments. Your workspace files are encrypted at rest."
+
+- question: "What models can I use?"
+  answer: "100+ models from all major providers — Claude, GPT-4, Gemini, DeepSeek, Llama, Mistral, and more. From cheap and fast models for simple tasks to smart and powerful ones for complex work. You only pay for what you use. No subscriptions, no separate accounts, no vendor lock-in."
+
+- question: "How does pricing work?"
+  answer: "Pay as you go. Every model has a transparent per-task cost — from fractions of a cent for fast models to a few cents for the smartest ones. You see the cost before every run. No subscriptions, no monthly minimums, no surprise bills. Compare that to OpenClaw users reporting $50-750/month in surprise API costs."
+
+- question: "Can I import my OpenClaw skills?"
+  answer: "We're building a ClawHub import tool with compatibility detection. You'll be able to bring over your favorite OpenClaw skills — after they pass our security review. We won't import the 341 malicious ones. You're welcome."
+
+- question: "What if LikeClaw shuts down?"
+  answer: "Your workspaces include file export. Download your entire workspace — files, history, configurations — at any time. We're building toward open standards for skill definitions and workspace portability. No lock-in is a feature, not an afterthought."
+
+- question: "Is this as powerful as running AI agents locally?"
+  answer: "For 99% of use cases, yes. You get sandboxed code execution, persistent file storage, 100+ models, and an automation marketplace. The 1% that needs raw system access — modifying system files, running local hardware — still needs a local setup like OpenClaw. But as one HN commenter put it: 'Simpler alternatives cover 99% of what they actually need.' We built the simpler alternative. With sandbox security on top."

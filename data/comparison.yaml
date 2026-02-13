@@ -1,0 +1,33 @@
+heading: "How LikeClaw actually compares."
+columns:
+  - name: "LikeClaw"
+    highlight: true
+  - name: "OpenClaw"
+  - name: "ChatGPT Plus"
+    mobile_hidden: true
+rows:
+  - label: "Setup time"
+    values: ["30 seconds", "3+ days", "Instant (limited)"]
+    highlights: ["brand", "default", "default"]
+  - label: "Code execution"
+    values: ["Secure sandbox", "Raw system access", "Limited interpreter"]
+    highlights: ["brand", "error", "default"]
+  - label: "Skills marketplace"
+    values: ["Vetted, mandatory review", "341+ confirmed malicious", "GPT Store (reviewed)"]
+    highlights: ["brand", "error", "default"]
+  - label: "Models"
+    values: ["100+ models, all providers", "Any (BYOK required)", "GPT-4o only"]
+    highlights: ["brand", "default", "default"]
+  - label: "Pricing"
+    values: ["Pay as you go", "$50-750/mo (variable)", "$20/mo (subscription)"]
+    highlights: ["brand", "error", "default"]
+  - label: "Cost controls"
+    values: ["Built-in limits & tracking", "None", "N/A (fixed price)"]
+    highlights: ["brand", "error", "default"]
+  - label: "Background tasks"
+    values: ["Yes", "Yes", "No"]
+    highlights: ["success", "default", "muted"]
+  - label: "Team features"
+    values: ["Multi-tenant, SSO", "Single user only", "Team plan available"]
+    highlights: ["brand", "muted", "default"]
+footer: "OpenClaw proved that AI agents need to do more than talk. We loved the vision — and rebuilt it from scratch without OpenClaw's security holes, surprise bills, and 3-day setup. Same power. None of the problems."

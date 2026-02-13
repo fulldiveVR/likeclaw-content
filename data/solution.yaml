@@ -1,0 +1,5 @@
+heading: "What if your AI agent ran in the cloud, in a sandbox, in 30&nbsp;seconds?"
+paragraphs:
+  - "LikeClaw is a cloud-native AI agent platform. Every task runs in an isolated secure sandbox — a container that's created for your execution and destroyed when it's done. Your code runs. Your files persist. Nothing touches your machine. It's everything OpenClaw should have been."
+  - "Pick from 100+ models — cheap and fast for simple tasks, smart and powerful for complex ones. Browse a vetted skills marketplace. And you're running in 30&nbsp;seconds."
+tagline: "This is autonomous AI with guardrails."

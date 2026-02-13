@@ -1,0 +1,12 @@
+heading: "You wanted an AI agent that does things. You got a security&nbsp;nightmare."
+subheading: "The pitch was compelling: an AI assistant that goes beyond chat. One that executes code, automates tasks, and acts on your behalf. Then reality&nbsp;hit."
+cards:
+  - icon: "clock"
+    title: "3+ days to configure"
+    description: 'Local environment setup, dependency management, permission configs. "I spent three days configuring it and lost $50 in tokens before it did anything useful."'
+  - icon: "lock"
+    title: "Your entire machine exposed"
+    description: "Raw system access. Plaintext API keys. Kaspersky, Cisco, Snyk, and Wiz all published warnings. 341+ malicious skills with no vetting process."
+  - icon: "dollar"
+    title: "$50-750/mo in surprise bills"
+    description: "The software is free. The API costs aren't. No built-in cost controls. One documented case hit $3,600 in a single month."

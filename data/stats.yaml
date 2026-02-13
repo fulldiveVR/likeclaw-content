@@ -1,0 +1,15 @@
+- value: "341+"
+  label: "Malicious skills found in OpenClaw's marketplace"
+  source: "Snyk Research, 2026"
+
+- value: "$133/mo"
+  label: "Average spent on AI subscriptions — 42% wasted"
+  source: "Industry research"
+
+- value: "3+ days"
+  label: "Typical OpenClaw setup time before first useful task"
+  source: "User reports"
+
+- value: "36%"
+  label: "Of OpenClaw marketplace skills contain prompt injection"
+  source: "Snyk Research, 2026"

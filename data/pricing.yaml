@@ -1,0 +1,19 @@
+section_heading: "Pay as you go. No subscriptions."
+section_subheading: "Pick any model from 100+ options. Cheap models for quick tasks. Smart models for complex ones. You see the cost before every run — no surprises, ever. The opposite of OpenClaw's cost roulette."
+section_footer: "Compare that to OpenClaw: users report $50-750/month in surprise API costs. One power user documented $3,600 in a single month. With LikeClaw, you see the cost before you run — and you never pay more than you choose."
+
+plans:
+  - name: "Pay As You Go"
+    price: "From $0"
+    period: ""
+    description: "Only pay for what you use. Pick any model — from fast and cheap to slow and smart."
+    highlight: true
+    badge: "Simple pricing"
+    features:
+      - "100+ models — from $0.001 to $0.10 per task"
+      - "Choose cheap models for simple tasks"
+      - "Choose smart models for complex tasks"
+      - "Sandboxed execution included"
+      - "Full cost transparency before every run"
+    cta_text: "Get Early Access"
+    note: "No subscription. No commitment. No surprise bills."

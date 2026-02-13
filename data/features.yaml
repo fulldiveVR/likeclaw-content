@@ -1,0 +1,29 @@
+- title: "Sandboxed. For Real."
+  badge: "Security"
+  badge_color: "green"
+  description: "Every execution runs in an isolated secure sandbox — created for your task, destroyed when done. Unlike OpenClaw, nothing touches your machine."
+  items:
+    - "Isolated secure sandbox per task"
+    - "Every skill vetted before publishing"
+    - "Keys encrypted, never stored plaintext"
+    - "Container destroyed after each execution"
+
+- title: "100+ Models. Pay Per Use."
+  badge: "Multi-Model"
+  badge_color: "blue"
+  description: "Claude, GPT-4, Gemini, DeepSeek, Llama, Mistral — from cheap and fast to smart and powerful. Pick the right model for each task."
+  items:
+    - "100+ models from all major providers"
+    - "Switch models mid-task"
+    - "Pay only for what you use"
+    - "No vendor lock-in"
+
+- title: "Running in 30 Seconds."
+  badge: "Zero Friction"
+  badge_color: "neutral"
+  description: "Browser-based. Cloud-native. No terminal, no dependencies, no config files. Everything OpenClaw promised — without the 3-day setup."
+  items:
+    - "Browser-based, no terminal needed"
+    - "No API keys to configure"
+    - "Persistent workspaces save your context"
+    - "Works on any device"
