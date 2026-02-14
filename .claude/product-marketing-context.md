@@ -7,11 +7,14 @@
 **What it does:** AI Wize is a cloud-native AI agent platform that gives users sandboxed code execution, any LLM model, a vetted skills marketplace, persistent file systems and workspaces — running in 30 seconds, not 3 days. Everything OpenClaw promised, delivered as a service.
 **Product category:** Cloud AI Personal Assistant / AI Agent Platform
 **Product type:** SaaS (cloud-hosted)
-**Business model:** Freemium with tiered subscriptions
-- Free: $0/mo — 50 tasks, basic models, 1 workspace
-- Pro: $15-20/mo — unlimited chat, 500 sandbox executions, all models, 5 workspaces
-- Power: $40/mo — unlimited everything, BYOK, priority execution
-- Team: $25/seat/mo — Power features + team management, SSO
+**Business model:** Pay-per-task with margin on LLM + sandbox compute
+- We proxy all LLM requests (OpenRouter-style) with a 5-10% margin on model costs
+- Sandbox compute (E2B containers) billed per task
+- Users set their own monthly spending cap ($5, $10, $50, etc.) — never go over
+- Free credits at signup for zero-friction onboarding
+- Individual: Pay per task ($0.001-$0.15 typical range), all 100+ models, set your own cap
+- Teams (Q2 2026): Per-seat pricing — shared workspaces, SSO, admin controls, centralized billing
+- No BYOK — we handle all model access to keep UX simple and onboarding under 30 seconds
 
 ## Target Audience
 **Target companies:** Startups, small-to-medium businesses, individual developers, technical founders, non-technical business users wanting AI automation
@@ -56,10 +59,11 @@
 - Zero setup: Running in 30 seconds vs. 3 days (cloud-native, browser-based)
 - Sandboxed execution: E2B containers vs. raw system access (real security)
 - Vetted skills marketplace: Mandatory security review vs. open registry with 341+ malicious skills
-- Predictable pricing: Fixed tiers vs. runaway API costs
-- Multi-model: One subscription covers Claude, GPT-4, Gemini, DeepSeek — no vendor lock-in
+- Predictable pricing: Pay-per-task with spending caps vs. runaway API costs
+- Multi-model: One account covers Claude, GPT-4, Gemini, DeepSeek — no vendor lock-in, no separate API keys
+- Budget control: Users set their own monthly cap and never go over
 - Team-ready: Multi-tenant workspaces, auth, billing from day one
-**How we do it differently:** Cloud-native architecture with E2B sandboxed containers. Every skill is vetted before publishing. Usage is metered and capped per tier. All models accessible through one unified interface.
+**How we do it differently:** Cloud-native architecture with E2B sandboxed containers. Every skill is vetted before publishing. We proxy all LLM requests with a small margin — users pick models and see costs before every run. Spending caps prevent surprise bills.
 **Why that's better:** Users get the power of autonomous AI agents (code execution, file system, automation) with the safety of a managed cloud service (sandboxed, vetted, predictable).
 **Why customers choose us:** "I want OpenClaw's capabilities without OpenClaw's problems."
 
@@ -68,13 +72,13 @@
 |-----------|----------|
 | "I can just self-host OpenClaw for free" | You can — if you have 3 days for setup, tolerance for 341+ malicious skills, comfort with raw system access to your machine, and budget for $50-750/mo in surprise API costs. We built what OpenClaw should have been. |
 | "How is this different from ChatGPT Plus?" | ChatGPT talks. We do. Sandboxed code execution, persistent file system, autonomous task running, skills marketplace — ChatGPT can't execute code on your behalf or run background automations. |
-| "Is my data safe in the cloud?" | Safer than on your local machine with OpenClaw. Every execution runs in an isolated E2B sandbox that's destroyed after use. Your data never touches other users' environments. We support BYOK for full control. |
+| "Is my data safe in the cloud?" | Safer than on your local machine with OpenClaw. Every execution runs in an isolated E2B sandbox that's destroyed after use. Your data never touches other users' environments. All credentials encrypted at rest. |
 
 **Anti-persona:** Users who need fully offline/air-gapped AI (government, classified). Users who want to build and sell their own AI agent platform. Users who need 100% open-source with self-hosting only.
 
 ## Switching Dynamics
 **Push:** Security warnings from Kaspersky/Cisco/Snyk about OpenClaw. Surprise $300+ monthly bills. 3-day setup frustration. Malicious skills infecting systems.
-**Pull:** 30-second setup. Predictable pricing. "Sleep at night" security. All models in one place. No vendor lock-in with BYOK.
+**Pull:** 30-second setup. Predictable pricing with spending caps. "Sleep at night" security. All models in one place. No vendor lock-in.
 **Habit:** Already invested time configuring OpenClaw. Familiar with local-first workflow. Existing skills/extensions built for OpenClaw ecosystem.
 **Anxiety:** "Will it be as powerful as running locally?" "Can I migrate my OpenClaw workflows?" "What if the company shuts down and I lose access?"
 
@@ -90,13 +94,13 @@
 - "What OpenClaw should have been"
 - "OpenClaw but in the cloud with actual security"
 - "One subscription, every model"
-**Words to use:** sandboxed, zero-setup, predictable, vetted, secure, instant, cloud-native, multi-model, BYOK
+**Words to use:** sandboxed, zero-setup, predictable, vetted, secure, instant, cloud-native, multi-model, spending cap, pay-per-task
 **Words to avoid:** revolutionary, disruptive, game-changing, AI-powered (everything is), innovative, cutting-edge, next-generation, leverage, synergy
 **Glossary:**
 | Term | Meaning |
 |------|---------|
 | E2B sandbox | Isolated cloud container for safe code execution |
-| BYOK | Bring Your Own Key — use your own API keys for full control |
+| Spending cap | User-defined monthly budget limit — never go over what you set |
 | Skills | Pre-built automation packages (like plugins/extensions) |
 | Workspace | Persistent environment with files, history, and configuration |
 
@@ -110,7 +114,7 @@
 - 30-second setup vs. 3-day OpenClaw setup (verified)
 - 341+ confirmed malicious skills in OpenClaw's marketplace (Snyk research, Feb 2026)
 - 36% of OpenClaw skills contain prompt injection (Snyk)
-- $50-750/mo OpenClaw cost range vs. $0-40/mo predictable tiers
+- $50-750/mo OpenClaw cost range vs. user-defined spending caps with pay-per-task
 - OpenClaw: 5 name changes in 3 months
 **Customers:** Private beta (testimonials to come)
 **Testimonials:**
@@ -120,8 +124,8 @@
 |-------|-------|
 | Security | E2B sandboxed execution vs. OpenClaw's 341 malicious skills, plaintext API keys, and RCE vulnerabilities |
 | Zero friction | 30-second cloud setup vs. 3-day local installation |
-| Cost predictability | Fixed tiers ($0-40/mo) vs. runaway costs ($50-750/mo documented) |
-| Multi-model freedom | One subscription for Claude + GPT-4 + Gemini + DeepSeek vs. $20/mo each |
+| Cost predictability | Pay-per-task with user-defined spending caps vs. runaway costs ($50-750/mo documented) |
+| Multi-model freedom | One account for Claude + GPT-4 + Gemini + DeepSeek vs. $20/mo each |
 
 ## Goals
 **Business goal:** Build waitlist/early access list for private beta, targeting 1,000+ signups in month 1

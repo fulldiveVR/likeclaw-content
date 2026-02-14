@@ -113,7 +113,7 @@ sections:
       - title: "Sign up with your email"
         description: "No credit card. No local install. No environment variables. You will be inside the platform before you would finish reading OpenClaw's getting-started guide."
       - title: "Pick your model"
-        description: "Claude for complex logic. GPT-4 for general tasks. DeepSeek for cost-effective runs. Or let LikeClaw pick the best model for the job. Bring your own keys for zero markup."
+        description: "Claude for complex logic. GPT-4 for general tasks. DeepSeek for cost-effective runs. Or let LikeClaw pick the best model for the job. You see the cost before every run."
       - title: "Describe your task"
         description: "Tell the agent what you need: run a script, process a dataset, generate a report, test a module. Write it in plain English or paste code directly."
       - title: "Run it in the sandbox"
@@ -188,7 +188,7 @@ Not every code task needs the same AI model. LikeClaw gives you access to **100+
 - **Gemini** — solid for tasks that benefit from Google's training data and multimodal inputs
 - **DeepSeek** — cost-effective for straightforward tasks where you want to conserve credits
 
-Switch models between tasks. Or let LikeClaw pick the best model automatically based on the task type. Bring your own API keys for zero markup.
+Switch models between tasks. Or let LikeClaw pick the best model automatically based on the task type. Pay per task, set a monthly cap, never go over.
 
 One account. Every model. No juggling four dashboards and four invoices.
 

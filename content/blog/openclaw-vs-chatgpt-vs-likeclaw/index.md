@@ -77,7 +77,7 @@ sections:
       - question: "Can I switch between these tools later?"
         answer: "Yes. None of these tools lock you in permanently. ChatGPT and LikeClaw are cloud-based, so there is nothing to uninstall. OpenClaw runs locally, so switching away means you stop running the process. LikeClaw is building import tools for OpenClaw skills, so migrating workflows will get easier over time."
       - question: "Which is cheapest?"
-        answer: "It depends on usage. ChatGPT Plus is a flat $20/month regardless of how much you use it. LikeClaw is pay as you go -- $0.001 to $0.10 per task, no subscriptions. OpenClaw's software is free, but API costs are unpredictable with no built-in limits. For transparent budgeting, LikeClaw. For simplicity, ChatGPT. For maximum potential savings with high risk, OpenClaw."
+        answer: "It depends on usage. ChatGPT Plus is a flat $20/month regardless of how much you use it. LikeClaw is pay as you go -- $0.001 to $0.15 per task, with a monthly spending cap you set yourself. OpenClaw's software is free, but API costs are unpredictable with no built-in limits. For transparent budgeting, LikeClaw. For simplicity, ChatGPT. For maximum potential savings with high risk, OpenClaw."
       - question: "Which is most secure?"
         answer: "ChatGPT and LikeClaw are both cloud-hosted with managed security. LikeClaw adds E2B sandboxed execution, meaning every task runs in an isolated container that is destroyed after use. OpenClaw runs with raw access to your local machine -- multiple security organizations have published warnings about this model, and researchers documented malware in the ClawHub marketplace."
       - question: "Can I use all three?"

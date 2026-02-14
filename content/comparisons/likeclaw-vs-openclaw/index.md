@@ -67,18 +67,18 @@ sections:
           - "brand"
           - "default"
           - "muted"
-      - label: "BYOK support"
+      - label: "Spending controls"
         values:
-          - "Yes"
-          - "Required (only option)"
-          - "No"
+          - "User-defined monthly cap"
+          - "None (unlimited burn)"
+          - "Fixed subscription"
         highlights:
           - "brand"
+          - "error"
           - "default"
-          - "muted"
       - label: "Pricing"
         values:
-          - "Pay per task ($0.001-0.10)"
+          - "Pay per task ($0.001-0.15)"
           - "\"Free\" + $50-750/mo API costs"
           - "$20/mo (fixed)"
         highlights:
@@ -139,7 +139,7 @@ sections:
       - title: "Sign up for LikeClaw"
         description: "No credit card. No local setup. No dependencies. You will be inside the platform before you would finish reading OpenClaw's getting-started guide."
       - title: "Pick your model"
-        description: "Claude, GPT-4, Gemini, DeepSeek -- choose one or let LikeClaw pick the best model for the task. Bring your own API keys for zero markup."
+        description: "Claude, GPT-4, Gemini, DeepSeek -- choose one or let LikeClaw pick the best model for the task. You see the cost before every run."
       - title: "Import your workflows"
         description: "We are building a ClawHub import tool with E2B compatibility detection. Bring over your favorite OpenClaw skills -- after they pass our security review."
       - title: "Run your first task in a sandbox"
@@ -152,13 +152,13 @@ sections:
       - question: "Is cloud as powerful as running locally?"
         answer: "For 99% of use cases, yes. You get sandboxed code execution, persistent file storage, multi-model access, and a vetted automation marketplace. The 1% that needs raw system access -- modifying system files, running local hardware -- still needs a local setup. But as one Hacker News commenter put it about OpenClaw: simpler alternatives cover 99% of what they actually need. We built that simpler alternative. With sandbox security on top."
       - question: "What about data privacy?"
-        answer: "Safer than on your local machine running OpenClaw. Every execution runs in an isolated E2B sandbox container. It is created for your task and destroyed when it is done. Your data never touches other users' environments. Workspace files are encrypted at rest. You can also bring your own API keys -- we never see your prompts."
+        answer: "Safer than on your local machine running OpenClaw. Every execution runs in an isolated E2B sandbox container. It is created for your task and destroyed when it is done. Your data never touches other users' environments. Workspace files are encrypted at rest. All credentials are encrypted and scoped to your sandbox session."
       - question: "How does pricing compare?"
-        answer: "OpenClaw is free software with $50 to $750 per month in surprise API costs and no built-in cost controls. One documented power user spent $3,600 in a single month. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run. No subscription, no commitment, no surprise bills. Built-in cost transparency means you always know what you will pay before you pay it."
+        answer: "OpenClaw is free software with $50 to $750 per month in surprise API costs and no built-in cost controls. One documented power user spent $3,600 in a single month. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.15 depending on the model. You see the cost before every run and set a monthly spending cap so you never go over. No subscription, no commitment, no surprise bills."
       - question: "What models are supported?"
-        answer: "Claude (Opus, Sonnet, Haiku), GPT-4o, Gemini Pro, and DeepSeek -- all accessible through one account with pay-per-task pricing. No separate accounts, no extra charges, no vendor lock-in. Bring your own API keys for any supported provider at their rates with zero markup from us."
+        answer: "Claude (Opus, Sonnet, Haiku), GPT-4o, Gemini Pro, and DeepSeek -- all accessible through one account with pay-per-task pricing. No separate accounts, no extra charges, no vendor lock-in. One interface, every model, transparent costs."
       - question: "What if LikeClaw shuts down?"
-        answer: "Your workspaces include file export. Download your entire workspace -- files, history, configurations -- at any time. With BYOK, you are using your own API keys anyway. We are also building toward open standards for skill definitions and workspace portability. No lock-in is a feature, not an afterthought."
+        answer: "Your workspaces include file export. Download your entire workspace -- files, history, configurations -- at any time. We are also building toward open standards for skill definitions and workspace portability. No lock-in is a feature, not an afterthought."
   - type: cta
     heading: "OpenClaw proved the demand. We built the product."
     subheading: "Join the private beta. 30 seconds to your first task."
@@ -192,7 +192,7 @@ LikeClaw uses pay-per-task pricing — every task costs between $0.001 and $0.10
 
 LikeClaw is a cloud-native AI agent platform. Every task runs in an isolated **E2B sandbox** -- a container that is created for your execution and destroyed when it is done. Your code runs. Your files persist in your encrypted workspace. Nothing touches your machine, your keys, or other users' environments.
 
-You get access to **every major model** -- Claude, GPT-4, Gemini, DeepSeek -- through one interface and one account. No juggling three dashboards and four invoices. Bring your own API keys for full control and zero markup.
+You get access to **every major model** -- Claude, GPT-4, Gemini, DeepSeek -- through one interface and one account. No juggling three dashboards and four invoices. Set a monthly spending cap and never go over.
 
 The skills marketplace has **mandatory security review** before any skill is published. Not an open registry where anyone with a week-old GitHub account can upload malware. A vetted catalog.
 

@@ -109,7 +109,7 @@ sections:
       - question: "How is this different from Gmail filters?"
         answer: "Gmail filters are static rules: if subject contains X, move to folder Y. They can not understand context, urgency, or intent. LikeClaw's AI agent reads the full context of each email, understands relationships between senders, recognizes urgency patterns, and adapts over time. Filters sort. Agents triage."
       - question: "What about email privacy and security?"
-        answer: "Every email processing task runs inside an isolated E2B sandbox container that is created for your session and destroyed when it ends. Your credentials are encrypted, never stored in plaintext. LikeClaw never accesses your email outside the sandbox, never shares data between users, and never uses your email content for model training. You can also bring your own API keys for full control over the AI layer."
+        answer: "Every email processing task runs inside an isolated E2B sandbox container that is created for your session and destroyed when it ends. Your credentials are encrypted, never stored in plaintext. LikeClaw never accesses your email outside the sandbox, never shares data between users, and never uses your email content for model training."
   - type: cta
     heading: "Ready to reclaim 35 hours/month?"
     subheading: "Join the beta. Your inbox will thank you."

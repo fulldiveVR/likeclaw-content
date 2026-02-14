@@ -57,7 +57,7 @@ sections:
       - question: "Can I import all my OpenClaw skills?"
         answer: "No, only ones that pass our security review. Snyk researchers found hundreds of malicious skills on ClawHub, and we won't import any of them. You're welcome."
       - question: "Will it cost more than OpenClaw?"
-        answer: "OpenClaw is 'free' until you see the API bill. Users report unpredictable monthly costs with no built-in controls. LikeClaw is pay as you go -- you see the cost before every run, from $0.001 to $0.10 per task. See our full cost breakdown for details."
+        answer: "OpenClaw is 'free' until you see the API bill. Users report unpredictable monthly costs with no built-in controls. LikeClaw is pay as you go -- you see the cost before every run, from $0.001 to $0.15 per task. Set a monthly spending cap and never go over. Most users spend $5-15 per month. See our full cost breakdown for details."
       - question: "Is the cloud as powerful as running locally?"
         answer: "For 99% of use cases, yes. E2B sandboxed containers give you code execution, file system access, and persistent workspaces — all without touching your local machine. The 1% that needs raw system access still needs local. We're at peace with that."
       - question: "What about my existing data and files?"
@@ -65,7 +65,7 @@ sections:
       - question: "Do I need to learn a new system?"
         answer: "The concepts are the same: skills, workspaces, model selection. The interface is simpler. If you survived configuring OpenClaw, you'll find LikeClaw borderline relaxing."
       - question: "What models does LikeClaw support?"
-        answer: "Claude, GPT-4, Gemini, DeepSeek — all available through one account. No juggling API keys from four different providers. Or bring your own keys for zero markup."
+        answer: "Claude, GPT-4, Gemini, DeepSeek — all available through one account. No juggling API keys from four different providers. One account, every model, transparent pay-per-task pricing."
 ---
 
 ## Why people are switching
@@ -100,7 +100,7 @@ Beyond fixing OpenClaw's problems, LikeClaw adds things OpenClaw doesn't offer a
 
 **Sandboxed execution.** Every task runs in an isolated E2B container that's created on demand and destroyed after use. Your code executes in a real environment with a file system and network access — but it can't touch your machine, read your files, or access your credentials. This is what OpenClaw's "allowlist-based command approval" was trying to be.
 
-**Transparent pricing.** Pay as you go, from $0.001 to $0.10 per task depending on the model. You see the cost before every run. No subscriptions, no commitments, no surprise API bills. No scrambling to set up cost alerts after the fact.
+**Transparent pricing.** Pay as you go, from $0.001 to $0.15 per task depending on the model. You see the cost before every run. Set a monthly spending cap and never go over. No subscriptions, no commitments, no surprise API bills.
 
 **Zero setup.** Browser-based. No local installation, no dependency management, no permission configuration. Signup to first task in 30 seconds. Not 30 seconds if everything goes right on a clean machine with all prerequisites installed. 30 seconds, period.
 

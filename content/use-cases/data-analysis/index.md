@@ -159,7 +159,7 @@ LikeClaw handles it differently. Every analysis task runs inside an isolated E2B
 
 Compare this to running data analysis on your local machine with an open-source AI agent. Researchers documented [malware in open AI agent marketplaces](/blog/openclaw-security-what-you-need-to-know/) — a real risk when your data is involved. If that agent has access to your local files — including the financial data you just downloaded — you have a serious exposure. With LikeClaw, the analysis runs in the cloud, in isolation, and the container is destroyed after use. Your machine is never involved.
 
-With BYOK (bring your own API keys), even the AI model calls route through your own provider accounts. LikeClaw never sees your prompts or your data in transit. For operations managers handling sensitive business data, this is the difference between "probably fine" and "secure by architecture."
+All credentials are encrypted at rest and scoped to your sandbox session. For operations managers handling sensitive business data, this is the difference between "probably fine" and "secure by architecture."
 
 ## Pick the right model for the job
 

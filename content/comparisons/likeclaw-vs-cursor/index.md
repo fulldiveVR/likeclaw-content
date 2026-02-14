@@ -62,12 +62,12 @@ sections:
         highlights:
           - "brand"
           - "default"
-      - label: "BYOK support"
+      - label: "Spending controls"
         values:
-          - "Yes"
-          - "Yes"
+          - "User-defined monthly cap"
+          - "Fixed subscription"
         highlights:
-          - "default"
+          - "brand"
           - "default"
       - label: "Pricing"
         values:
@@ -134,9 +134,9 @@ sections:
       - question: "Can LikeClaw write code like Cursor?"
         answer: "LikeClaw can execute code in sandboxed cloud containers, which is useful for automation scripts, data processing, and background tasks. But it is not an IDE. If you are writing, editing, and debugging application code, Cursor is purpose-built for that workflow. LikeClaw is purpose-built for running code as part of larger automated workflows."
       - question: "How do they compare on pricing?"
-        answer: "Different models. Cursor offers a free tier, Pro at $20/month, and Business at $40/month — fixed subscriptions. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run, no subscription required. Both support BYOK (bring your own API key) for users who want to control costs and avoid rate limits."
+        answer: "Different models. Cursor offers a free tier, Pro at $20/month, and Business at $40/month — fixed subscriptions. LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.15 depending on the model. You see the cost before every run and set a monthly spending cap. No subscription required. You pay only for what you use."
       - question: "Do they use the same AI models?"
-        answer: "There is overlap. Cursor supports multiple models including Claude and GPT-4. LikeClaw provides access to 100+ models from any provider — Claude, GPT-4, Gemini, DeepSeek, and open-source options — all through a single account with pay-per-task pricing. Both let you bring your own API keys."
+        answer: "There is overlap. Cursor supports multiple models including Claude and GPT-4. LikeClaw provides access to 100+ models from any provider — Claude, GPT-4, Gemini, DeepSeek, and open-source options — all through a single account with pay-per-task pricing. One account, every model."
   - type: cta
     heading: "Ready to automate the work outside your IDE?"
     subheading: "Keep Cursor for code. Add LikeClaw for everything else."

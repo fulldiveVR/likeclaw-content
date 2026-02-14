@@ -45,7 +45,7 @@ sections:
         bullets:
           - "Claude, GPT-4, Gemini, DeepSeek included"
           - "Switch models per task or per step"
-          - "BYOK support for zero markup"
+          - "Set monthly spending caps per user"
           - "No vendor lock-in, no separate accounts"
       - title: "Persistent Workspaces"
         badge: "Developer Experience"
@@ -105,7 +105,7 @@ sections:
       - question: "Can my team share workspaces and collaborate on agent tasks?"
         answer: "Yes. On the Team plan, every member gets an individual isolated workspace plus access to shared team projects. Admins set per-user execution limits, choose available models, and manage access via SAML-based SSO. Every execution is logged with a full audit trail. Contact us for team pricing."
       - question: "What is the pricing for engineering teams?"
-        answer: "LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.10 depending on the model. You see the cost before every run. No subscription required. For teams, we offer multi-tenant workspaces, SSO, centralized billing, and audit trails — contact us for team pricing. Early access members get free credits to start."
+        answer: "LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.15 depending on the model. You see the cost before every run. Set a monthly spending cap and never go over. For teams, we offer multi-tenant workspaces, SSO, centralized billing, and audit trails — contact us for team pricing. Early access members get free credits to start."
   - type: cta
     heading: "Code execution that won't keep your CISO up at night"
     subheading: "Sandboxed. Multi-model. Running in 30 seconds. Free during beta."
@@ -127,7 +127,7 @@ LikeClaw is not an IDE tool. It is an AI agent platform that handles the develop
 
 **Data processing without the risk.** ETL pipelines, API endpoint testing, data migration validation, log analysis. The kind of work that involves production credentials and customer data. Running these tasks on your local machine with raw system access -- the way tools like OpenClaw work -- means a single compromised dependency or hallucinated command could exfiltrate data. In a sandbox, the blast radius is zero. The container has no access to your host filesystem or other environments.
 
-**Multi-model flexibility for different tasks.** Not every task needs the same model. Claude excels at code review and nuanced reasoning. GPT-4 handles documentation and structured output well. DeepSeek is cost-efficient for batch processing where you need volume over precision. LikeClaw gives you Claude, GPT-4, Gemini, and DeepSeek through one interface, one account, with pay-per-task pricing. Bring your own API keys for zero markup. No more paying $20/month to four separate providers for [subscriptions you barely use](/blog/stop-paying-four-ai-subscriptions/).
+**Multi-model flexibility for different tasks.** Not every task needs the same model. Claude excels at code review and nuanced reasoning. GPT-4 handles documentation and structured output well. DeepSeek is cost-efficient for batch processing where you need volume over precision. LikeClaw gives you Claude, GPT-4, Gemini, and DeepSeek through one interface, one account, with pay-per-task pricing. Set a monthly spending cap so the team never goes over budget. No more paying $20/month to four separate providers for [subscriptions you barely use](/blog/stop-paying-four-ai-subscriptions/).
 
 ## Security is not optional for engineering teams
 
@@ -149,4 +149,4 @@ On the Team plan, you can build internal skills that connect to your proprietary
 
 The average developer is [overspending on fragmented AI subscriptions](/blog/stop-paying-four-ai-subscriptions/). Multiply that across a 10-person engineering team and the waste adds up fast.
 
-LikeClaw uses pay-per-task pricing for individuals: every task costs between $0.001 and $0.10 depending on the model. For teams, we offer centralized billing with usage controls, SSO, and audit trails — contact us for team pricing. One invoice. One dashboard. Transparent costs at the org level. Early access members get free credits — enough to integrate LikeClaw into your team's workflow before paying anything.
+LikeClaw uses pay-per-task pricing: every task costs between $0.001 and $0.15 depending on the model. Set a monthly spending cap per user or per team — never go over budget. For teams, we offer centralized billing with usage controls, SSO, and audit trails — contact us for team pricing. One invoice. One dashboard. Transparent costs at the org level. Early access members get free credits — enough to integrate LikeClaw into your team's workflow before paying anything.

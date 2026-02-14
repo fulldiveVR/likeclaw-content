@@ -105,7 +105,7 @@ sections:
       - question: "Can I self-host LikeClaw?"
         answer: "No. LikeClaw is a cloud-native platform. Every task runs in an isolated E2B sandbox container that is created on demand and destroyed after execution. This architecture is what makes sandboxed code execution, persistent encrypted workspaces, and zero-setup onboarding possible. If self-hosting is a hard requirement, Open WebUI is the right choice for a chat interface. But keep in mind that Open WebUI does not offer sandboxed code execution or background task automation -- those are different capabilities."
       - question: "Is Open WebUI more private?"
-        answer: "For chat conversations, yes -- Open WebUI can run fully offline with local models, meaning no data leaves your network. That is a genuine advantage for air-gapped or highly regulated environments. LikeClaw takes a different approach: every execution runs in an isolated E2B sandbox that is destroyed after use, workspace files are encrypted at rest, and BYOK means we never see your prompts. For most teams, sandboxed cloud isolation is more practical than managing local infrastructure. But if zero-network-egress is your requirement, Open WebUI with Ollama is the right tool."
+        answer: "For chat conversations, yes -- Open WebUI can run fully offline with local models, meaning no data leaves your network. That is a genuine advantage for air-gapped or highly regulated environments. LikeClaw takes a different approach: every execution runs in an isolated E2B sandbox that is destroyed after use, and workspace files are encrypted at rest. For most teams, sandboxed cloud isolation is more practical than managing local infrastructure. But if zero-network-egress is your requirement, Open WebUI with Ollama is the right tool."
       - question: "Which has better AI model support?"
         answer: "Different trade-offs. LikeClaw includes 100+ models out of the box -- Claude, GPT-4, Gemini, DeepSeek -- with one account, pay-per-task pricing, and no API key management. Open WebUI supports any Ollama-compatible local model and any OpenAI-compatible API, but you bring your own keys and manage your own model infrastructure. If you want to run fully local models like Llama or Mistral on your own hardware, Open WebUI gives you that control. If you want access to every major frontier model without managing keys or accounts, LikeClaw handles that for you."
       - question: "Can I use both?"
@@ -149,7 +149,7 @@ LikeClaw makes sense when your needs go beyond chat:
 
 - **You do not have a DevOps team.** No Docker, no terminal, no dependency management. Open a browser, sign up, start working. The 30-second setup is not a marketing claim -- it is the actual onboarding experience.
 
-- **You want all models in one place.** Claude, GPT-4, Gemini, DeepSeek -- accessible through one account with pay-per-task pricing from $0.001 per task. No separate API accounts, no key management, no juggling providers. Bring your own keys if you prefer direct API access with zero markup.
+- **You want all models in one place.** Claude, GPT-4, Gemini, DeepSeek -- accessible through one account with pay-per-task pricing from $0.001 per task. Set a monthly spending cap and never go over. No separate API accounts, no key management, no juggling providers.
 
 - **You need team features without infrastructure.** SSO, audit logs, multi-tenant billing, and role-based access -- built in from day one. No LDAP server to configure, no OAuth2 setup to manage.
 

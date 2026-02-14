@@ -21,23 +21,23 @@ sections:
         - "Locked to provider's model selection"
         - "No visibility into actual API costs"
     after:
-      summary: "BYOK model"
+      summary: "Pay-per-task with spending cap"
       items:
-        - "Zero markup on API calls"
-        - "Your rate limits, your negotiated terms"
-        - "Any provider, any model, your keys"
-        - "Full cost visibility and control"
+        - "Per-task pricing from $0.001"
+        - "Set your own monthly spending cap"
+        - "100+ models, one account"
+        - "Full cost visibility before every run"
   - type: faq
-    heading: "Common questions about BYOK"
+    heading: "Common questions about AI pricing models"
     items:
-      - question: "Is BYOK harder to set up?"
-        answer: "No. If you already have an API key from OpenAI, Anthropic, or Google, setup takes about 30 seconds. Paste your key into LikeClaw's settings, select the provider, and start using it. The platform handles routing, orchestration, and sandboxed execution. You just bring the key."
-      - question: "Can I mix BYOK with standard pay-per-task?"
-        answer: "Yes. You can use your own API keys for providers where you have negotiated rates or high volume, and use LikeClaw's standard pay-per-task pricing for everything else. You are not locked into one mode."
-      - question: "Which providers support BYOK?"
-        answer: "LikeClaw supports BYOK for OpenAI, Anthropic, Google (Gemini), DeepSeek, and any OpenAI-compatible API endpoint. If a provider offers an API key, you can bring it."
+      - question: "Is BYOK harder to set up than managed access?"
+        answer: "Yes. BYOK requires you to create accounts with each API provider, generate keys, manage rotation, and monitor billing across multiple dashboards. Platforms like LikeClaw take a different approach: all models are available through one account with pay-per-task pricing. You get the same cost transparency without managing API keys."
+      - question: "Is pay-per-task the same as BYOK?"
+        answer: "Not exactly. BYOK means you bring your own API keys and pay providers directly. Pay-per-task means the platform handles model access and you pay per task with a small margin that covers infrastructure. Both offer usage-based transparency. Pay-per-task is simpler. BYOK gives more granular control."
+      - question: "What about enterprise teams with negotiated API rates?"
+        answer: "For teams with custom provider agreements, BYOK can offer savings. For most users, a managed platform with transparent per-task pricing and spending caps provides the same economic benefit with less operational overhead. Contact us for enterprise pricing."
       - question: "Is BYOK right for casual users?"
-        answer: "Probably not. If you send a few dozen messages per day, LikeClaw's standard pay-per-task pricing is simpler than managing your own API keys. BYOK makes sense when your volume is high enough that direct API rates save you money, or when you need specific rate limits and enterprise terms."
+        answer: "No. If you send a few dozen messages per day, a managed platform with pay-per-task pricing is simpler than managing your own API keys across multiple providers. BYOK makes sense when your volume is high enough that direct API rates save meaningful money, or when you need specific rate limits and enterprise terms."
 ---
 
 Every major AI platform charges you a subscription fee to use models that are available via API at a fraction of the cost. ChatGPT Plus is $20/month. Claude Pro is $20/month. Gemini Advanced is $19.99/month. Meanwhile, the actual API cost for a typical conversation -- a few hundred tokens in, a few hundred out -- is often less than a penny.
@@ -88,21 +88,21 @@ BYOK is not for everyone. It is specifically valuable for four groups:
 
 If you send a few messages per day and want simplicity, a flat subscription is fine. BYOK is for people who have outgrown that model.
 
-## How LikeClaw handles BYOK
+## How LikeClaw approaches this differently
 
-LikeClaw supports full BYOK with zero markup on API calls. You bring your own keys, and the platform handles everything else: sandboxed E2B execution, the vetted skills marketplace, persistent workspaces, task execution, and the orchestration layer that routes your requests to the right model.
+LikeClaw takes the core insight behind BYOK -- transparent, usage-based pricing without subscription markup -- and removes the complexity. Instead of asking users to manage their own API keys from multiple providers, LikeClaw proxies all model requests through one account with a small margin that covers sandboxed E2B execution, the vetted skills marketplace, persistent workspaces, and the orchestration layer.
 
-You bring your API keys. LikeClaw provides the infrastructure. Your per-token costs are exactly what the provider charges -- nothing more.
+You get the cost transparency that BYOK promises without the key management overhead. Every task shows you the cost before it runs. You set a monthly spending cap -- $5, $10, $50 -- and never go over. The result is the same economic benefit (pay for what you use, transparent per-task costs) with a simpler user experience (no API accounts, no key rotation, no provider dashboards to monitor).
 
-This is different from platforms that claim "BYOK support" but still add a per-request fee or processing surcharge. On LikeClaw, zero markup means zero markup.
+For users who value BYOK's principles but want zero-setup simplicity, LikeClaw is the managed alternative.
 
-## BYOK plus multi-model: the combination that changes the economics
+## Multi-model access without key management
 
-BYOK gets more powerful when combined with multi-model access. Instead of paying $20/month each to OpenAI, Anthropic, and Google for separate subscriptions, you bring one key from each provider and route tasks to whichever model handles them best.
+The real power of BYOK is multi-model routing -- using the best model for each task. LikeClaw delivers this without requiring separate API accounts.
 
-Need strong coding output? Route to Claude using your Anthropic key. Need broad general knowledge? Route to GPT-4 with your OpenAI key. Need deep Google Workspace integration? Use your Gemini key. Need high-volume routine processing at minimal cost? Route to DeepSeek.
+Need strong coding output? Route to Claude. Need broad general knowledge? Route to GPT-4. Need deep Google Workspace integration? Use Gemini. Need high-volume routine processing at minimal cost? Route to DeepSeek.
 
-Every task goes to the optimal model. Every call is billed at the provider's API rate. No subscription markup on any of it.
+Every task goes to the optimal model. You see the cost before every run. One account, 100+ models, transparent pricing.
 
 We broke down the full cost comparison across platforms in our [AI agent cost analysis](/blog/ai-agent-cost-comparison-2026/). And if you are currently stacking multiple AI subscriptions, our analysis of the [subscription consolidation math](/blog/stop-paying-four-ai-subscriptions/) shows exactly what the average professional can save.
 

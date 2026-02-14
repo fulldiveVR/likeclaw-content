@@ -56,16 +56,16 @@ sections:
       - title: "Multi-Model Flexibility"
         badge: "Multi-Model"
         badge_color: "blue"
-        description: "Claude, GPT-4, Gemini, DeepSeek -- all through one interface, one login, one account. Pick the right model for each task instead of paying $20/month to four different companies. Bring your own API keys for zero markup."
+        description: "Claude, GPT-4, Gemini, DeepSeek -- all through one interface, one login, one account. Pick the right model for each task instead of paying $20/month to four different companies. One account replaces your entire AI tool stack."
         bullets:
           - "100+ models from one account"
           - "Switch models per task"
-          - "BYOK support for full control"
+          - "Set a monthly spending cap"
           - "No vendor lock-in"
       - title: "Grows With You"
         badge: "Scale"
         badge_color: "blue"
-        description: "Start with a few cents per task. Scale to hundreds of tasks as your needs grow. Bring your own API keys when you want full control. Add team members when you hire. Pay-per-task pricing matches a startup's growth curve — you never pay for capacity you do not use."
+        description: "Start with a few cents per task. Scale to hundreds of tasks as your needs grow. Set a monthly spending cap so you always know your burn rate. Add team members when you hire. Pay-per-task pricing matches a startup's growth curve — you never pay for capacity you do not use."
         bullets:
           - "Pay per task from day one"
           - "No cliff pricing or enterprise minimums"
@@ -89,7 +89,7 @@ sections:
       - question: "Is it powerful enough for technical work?"
         answer: "Yes. LikeClaw runs sandboxed code execution in E2B containers with persistent file storage. You can execute Python, Node.js, shell scripts, and more. You get access to 100+ models including Claude Opus, GPT-4o, and Gemini Pro on the paid plans. The same infrastructure handles data analysis, code generation, automated testing, and web automation. It is the same power as running AI agents locally, minus the 3-day setup and security exposure."
       - question: "What happens when I need more?"
-        answer: "You just use more. Pay-per-task pricing means you scale naturally — run more tasks, pay proportionally more. Every task costs between $0.001 and $0.10 depending on the model. Bring your own API keys for zero markup on model calls. When you hire your first team member, team features add multi-tenant workspaces, SSO, and centralized billing. No cliff pricing, no enterprise minimums, no sales calls required."
+        answer: "You just use more. Pay-per-task pricing means you scale naturally — run more tasks, pay proportionally more. Every task costs between $0.001 and $0.15 depending on the model. Set a monthly spending cap so you always know your burn rate. When you hire your first team member, team features add multi-tenant workspaces, SSO, and centralized billing. No cliff pricing, no enterprise minimums, no sales calls required."
       - question: "Do I need to be technical to use it?"
         answer: "No. LikeClaw runs in your browser. You describe tasks in plain language. The AI agent handles execution in the cloud. There is no terminal, no command line, no config files, and no dependencies to install. If you can write an email describing what you need done, you can use LikeClaw. Technical founders get the full power of sandboxed code execution. Non-technical founders get an AI assistant that actually does things -- not just talks about them."
   - type: cta
@@ -125,7 +125,7 @@ Startup economics demand transparent costs. LikeClaw's pricing was designed for 
 
 **100+ models, one account.** Claude, GPT-4, Gemini, DeepSeek — all accessible through one interface. No more paying $20/month to four different providers. One account replaces three or four separate AI tool subscriptions.
 
-**BYOK when you are ready.** Bring your own API keys for zero markup on model calls. Direct provider pricing with LikeClaw's sandboxed execution on top. Full control over your AI infrastructure costs.
+**Set your budget and stick to it.** Define a monthly spending cap — $5, $10, $50, whatever matches your runway. LikeClaw stops when you hit your limit. No surprise bills, no runaway costs, no scrambling to figure out what happened at the end of the month.
 
 Compare that to the alternative: [unpredictable API costs](/blog/ai-agent-cost-comparison-2026/) from running AI agents locally, or [fragmented subscriptions](/blog/stop-paying-four-ai-subscriptions/) where nearly half the spending is wasted. Transparent pricing is not a nice-to-have for startups. It is a requirement.
 

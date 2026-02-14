@@ -145,7 +145,7 @@ This format works with any CI/CD pipeline that monitors for labeled issues. If y
 
 Not every GitHub automation task needs the same AI model. Quick issue creation from a clear crash report might work fine with a cost-effective model like DeepSeek. Deep codebase analysis for a test coverage audit benefits from Claude's reasoning capabilities. LikeClaw gives you access to 100+ models through a single interface — Claude, GPT-4, Gemini, DeepSeek, and more.
 
-Bring your own API keys for zero markup on model calls. One platform, every model, transparent pay-per-task pricing.
+One platform, every model, transparent pay-per-task pricing. Set a monthly spending cap and never go over budget.
 
 ## Where this fits in your workflow
 

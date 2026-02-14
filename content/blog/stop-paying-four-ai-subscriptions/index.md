@@ -48,16 +48,16 @@ sections:
       - label: "Total monthly"
         values: ["Total monthly", "$90-990/mo", "Pay per task"]
         highlights: ["default", "error", "brand"]
-    footer: "LikeClaw pricing: Pay as you go, from $0.001 to $0.10 per task. No subscriptions. Data as of February 2026."
+    footer: "LikeClaw pricing: Pay as you go, from $0.001 to $0.15 per task. Set your monthly spending cap. Data as of February 2026."
   - type: faq
     heading: "Common questions about LikeClaw pricing"
     items:
       - question: "Can I really use all models with pay-as-you-go?"
         answer: "Yes. LikeClaw gives you access to Claude, GPT-4, Gemini, DeepSeek, and 100+ other models. You pick the right model for each task and pay per task. Cheap models for simple tasks, smart models for complex ones. No separate subscriptions, no per-model fees."
-      - question: "What if I need my own API keys?"
-        answer: "LikeClaw supports BYOK -- bring your own API keys from any provider, pay the provider directly at their rates with zero markup from us. You get complete control over your spend."
       - question: "How does pricing work?"
-        answer: "Pay as you go. Every task costs between $0.001 and $0.10 depending on the model you choose. You see the cost before every run. No credit card required to start. No subscriptions, no commitments."
+        answer: "Pay as you go. Every task costs between $0.001 and $0.15 depending on the model you choose. You see the cost before every run. Set a monthly spending cap — $5, $10, $50 — and never go over. No credit card required to start. No subscriptions, no commitments."
+      - question: "How do I control my spending?"
+        answer: "Set a monthly spending cap when you sign up. LikeClaw stops when you hit your limit. You can raise or lower the cap anytime. Plus, you see the exact cost before every task runs. Two layers of cost control — something no other AI tool offers."
       - question: "What about teams?"
         answer: "Contact us for team pricing. Team features include multi-tenant workspaces, SSO, shared workspaces, and usage tracking."
 ---
@@ -102,11 +102,11 @@ Different models are genuinely better at different things. This is not marketing
 
 The optimal setup is not picking one model and hoping it covers everything. It is having access to all of them and routing each task to the model that handles it best. That is what multi-model access means in practice, not a feature checkbox, but a way to get better results while spending less.
 
-## The BYOK option: full control, zero markup
+## The spending cap: real cost control
 
-For power users who want maximum control over costs, LikeClaw supports BYOK -- bring your own API keys. Connect your own keys from OpenAI, Anthropic, Google, or any other provider. Pay the provider directly at their published rates. LikeClaw adds zero markup on API calls.
+LikeClaw solves the cost problem at the architecture level. You set a monthly spending cap — $5, $10, $50, whatever works for you — and you never go over. When you hit your limit, that is it until next month or until you raise the cap yourself.
 
-This means you get the unified interface, sandboxed execution, and all the platform features, but your per-token costs are exactly what the provider charges. No middleman pricing. For teams that process high volumes, BYOK can cut costs significantly compared to paying retail subscription rates to each provider. We wrote more about this model in our [BYOK deep-dive](/blog/byok-future-of-ai-tools/).
+You also see the exact cost before every task runs. Pick a cheap model for simple tasks, a smart model for complex ones. Two layers of cost control: per-task transparency and a monthly ceiling. No other AI platform offers both.
 
 ## The hidden cost of "free" alternatives
 
