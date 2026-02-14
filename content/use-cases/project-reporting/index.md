@@ -2,7 +2,7 @@
 title: "Automated Weekly Dev Status Reports"
 description: "AI agent pulls GitHub activity, checks project milestones, and delivers structured status reports — every Monday morning, zero effort."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["project-management", "automation", "developer-tools", "ai-agents"]
 categories: ["use-cases"]

@@ -2,7 +2,7 @@
 title: "Export and Analyze Product Analytics with AI"
 description: "AI agent connects to Mixpanel, GA4, or any analytics API — exports data, runs analysis scripts, and delivers insights in your workspace."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["analytics", "data-analysis", "automation", "ai-agents"]
 categories: ["use-cases"]

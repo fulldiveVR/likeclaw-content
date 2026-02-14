@@ -2,7 +2,7 @@
 title: "Monitor Reddit for Leads, Mentions, and Market Signals"
 description: "AI agent scans targeted subreddits on a schedule, finds high-value discussions, and delivers engagement opportunities — automatically."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["monitoring", "marketing", "automation", "ai-agents"]
 categories: ["use-cases"]

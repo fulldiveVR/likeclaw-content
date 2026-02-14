@@ -2,7 +2,7 @@
 title: "Turn App Crashes into Auto-Fix Pull Requests"
 description: "Paste crash data from Play Console or Crashlytics. AI agent analyzes your codebase, creates implementation-ready fix issues, and ships PRs — in a secure sandbox."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["debugging", "mobile", "automation", "developer-tools"]
 categories: ["use-cases"]

@@ -2,7 +2,7 @@
 title: "Auto-Code GitHub Issues with AI Agents"
 description: "Turn crash reports and feature requests into auto-implemented PRs. AI agents analyze your repo, create issues, and ship fixes — in a secure sandbox."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["github", "automation", "developer-tools", "ai-agents"]
 categories: ["use-cases"]

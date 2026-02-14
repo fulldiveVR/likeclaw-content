@@ -2,7 +2,7 @@
 title: "Automated Investment Research and Portfolio Tracking"
 description: "AI agent runs weekly portfolio analysis — web research, performance tracking, risk metrics — and delivers structured reports to your workspace."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["research", "automation", "finance", "ai-agents"]
 categories: ["use-cases"]

@@ -2,7 +2,7 @@
 title: "Automated Daily Content from Industry News"
 description: "AI agent researches trending topics, matches your voice, and drafts publication-ready articles — on a daily schedule. Zero manual effort."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["content", "automation", "productivity", "ai-agents"]
 categories: ["use-cases"]

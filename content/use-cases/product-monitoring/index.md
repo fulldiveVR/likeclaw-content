@@ -2,7 +2,7 @@
 title: "Track Product Drops, Prices, and Website Changes"
 description: "AI agent monitors websites on a schedule — product availability, price changes, domain status — and alerts you when something changes."
 date: 2026-02-13
-draft: true
+draft: false
 images: []
 tags: ["monitoring", "automation", "productivity", "ai-agents"]
 categories: ["use-cases"]
