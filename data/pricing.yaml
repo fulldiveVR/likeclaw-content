@@ -18,7 +18,7 @@ plans:
     cta_text: "Get Early Access"
     note: "No subscription. No hardware. No surprise bills."
   - name: "Teams"
-    price: "Coming Q2 2026"
+    price: "Custom"
     period: "per seat"
     description: "Everything in Individual, plus shared workspaces, team budgets, SSO, and admin controls. Built for teams that want AI agents without the chaos."
     highlight: false
@@ -29,5 +29,6 @@ plans:
       - "SAML-based SSO and role-based access"
       - "Centralized billing and usage dashboards"
       - "Audit trail for every execution"
-    cta_text: "Join Waitlist"
-    note: "Per-seat pricing. Leave your email — we will reach out when Teams is ready."
+    cta_text: "Learn More"
+    cta_url: "https://aiwize.com"
+    note: "Per-seat pricing. Available now — powered by AIWize enterprise platform."
