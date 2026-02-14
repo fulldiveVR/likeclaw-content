@@ -21,3 +21,6 @@
 
 - question: "Is this as powerful as running AI agents locally?"
   answer: "For 99% of use cases, yes. You get sandboxed code execution, persistent file storage, 100+ models, and an automation marketplace. The 1% that needs raw system access — modifying system files, running local hardware — still needs a local setup like OpenClaw. But as one HN commenter put it: 'Simpler alternatives cover 99% of what they actually need.' We built the simpler alternative. With sandbox security on top."
+
+- question: "How is LikeClaw related to AIWIZE?"
+  answer: "AIWIZE (aiwize.com) is the company and brand behind LikeClaw. AIWIZE builds AI agent products primarily for B2B customers — teams, enterprises, and professional workflows. LikeClaw is a version of the AIWIZE AI Agent designed specifically for the consumer market: individuals, freelancers, and small teams who want the same sandboxed AI agent capabilities without enterprise complexity."
